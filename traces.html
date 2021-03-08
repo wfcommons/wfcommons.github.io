@@ -68,6 +68,22 @@ permalink: /traces
                     <div class="header">
                         <h1>{{ t.name }}</h1>
                     </div>
+                    <div class="content">
+                        <div class="row">
+                            <div class="col-4" style="padding: 1em; background-color: #777">
+                                <strong>{{ t.traces }}</strong>
+                                <br/>traces
+                            </div>
+                            <div class="col-4" style="padding: 1em; background-color: #48B54E">
+                                <strong>{{ t.applications }}</strong>
+                                <br/>applications
+                            </div>
+                            <div class="col-4" style="padding: 1em; background-color: #777">
+                                <strong>{{ t.platforms }}</strong>
+                                <br/>platforms
+                            </div>
+                        </div>
+                    </div>
                     <div class="footer">
                         <img src="{{ t.website }}/workflows/{{ t.action }}/badge.svg"/>
                     </div>

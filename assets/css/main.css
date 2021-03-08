@@ -4158,6 +4158,7 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 .trace:hover {
     box-shadow: #ccc 3px 3px 3px;
     text-decoration: none;
+    border: 1px solid #aaa;
 }
 
 .trace .header {
@@ -4168,6 +4169,24 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 .trace .header h1 {
     font-size: 0.8em;
     margin: 0;
+}
+
+.trace .content {
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #eee;
+    line-height: 1.2em;
+}
+
+.trace .content .row {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 0.9em;
+}
+
+.trace .content strong {
+    color: #fff;
+    font-size: 1.2em;
 }
 
 .trace .footer {
