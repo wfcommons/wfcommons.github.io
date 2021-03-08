@@ -6,95 +6,138 @@ permalink: /
 <!-- Main -->
 <div id="main">
 
+    {% assign num_traces = 0 %}
+    {% assign num_apps = 0 %}
+    {% for trace in site.data.traces %}
+    {% assign num_traces = num_traces | plus: trace.traces %}
+    {% assign num_apps = num_apps | plus: trace.applications %}
+    {% endfor %}
+
+    <div class="row">
+        <article class="post">
+            <div class="title">
+                <h2>WfCommons in Numbers</h2>
+            </div>
+            <div class="row" style="margin-bottom: 2em">
+                <div class="col-md-3">
+                    <div style="line-height: 3em">
+                        <span style="font-size: 3em; color: #48B54E" class="timer" data-from="1"
+                              data-to="{{ num_traces }}"></span>
+                    </div>
+                    <div style="line-height: 1.2em">
+                        <p style="color: #666; padding-right: 1em">workflow execution <strong>traces</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="line-height: 3em">
+                        <span style="font-size: 3em; color: #999" class="timer" data-from="1"
+                              data-to="{{ num_apps }}"></span>
+                    </div>
+                    <div style="line-height: 1.2em">
+                        <p style="color: #666; padding-right: 1em">workflow <strong>applications</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script type="text/javascript">
+        $('.timer').countTo();
+    </script>
+
     <!-- Post -->
-<!--    <article class="post">-->
-<!--        <header>-->
-<!--            <div class="title">-->
-<!--                <h2><a href="single.html">The WfCommons Project</a></h2>-->
-<!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-<!--            </div>-->
-<!--            <div class="meta">-->
-<!--                <time class="published" datetime="2015-11-01">November 1, 2015</time>-->
-<!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-<!--            </div>-->
-<!--        </header>-->
-<!--        <p>-->
-<!--            The WorkflowHub project is a community framework for enabling scientific workflow research and development-->
-<!--            by providing foundational tools for analyzing workflow execution traces, and generating synthetic, yet-->
-<!--            realistic, workflow traces that can be used to develop new techniques, algorithms and systems that can-->
-<!--            overcome the challenges of efficient and robust execution of ever larger workflows on increasingly complex-->
-<!--            distributed infrastructures. The figure below shows an overview of the workflow research life cycle process-->
-<!--            that integrates the three axis of the WorkflowHub project:-->
-<!--        </p>-->
-<!--        <footer>-->
-<!--            <ul class="actions">-->
-<!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-<!--            </ul>-->
-<!--            <ul class="stats">-->
-<!--                <li><a href="#">General</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-<!--            </ul>-->
-<!--        </footer>-->
-<!--    </article>-->
+    <!--    <article class="post">-->
+    <!--        <header>-->
+    <!--            <div class="title">-->
+    <!--                <h2><a href="single.html">The WfCommons Project</a></h2>-->
+    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
+    <!--            </div>-->
+    <!--            <div class="meta">-->
+    <!--                <time class="published" datetime="2015-11-01">November 1, 2015</time>-->
+    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
+    <!--            </div>-->
+    <!--        </header>-->
+    <!--        <p>-->
+    <!--            The WorkflowHub project is a community framework for enabling scientific workflow research and development-->
+    <!--            by providing foundational tools for analyzing workflow execution traces, and generating synthetic, yet-->
+    <!--            realistic, workflow traces that can be used to develop new techniques, algorithms and systems that can-->
+    <!--            overcome the challenges of efficient and robust execution of ever larger workflows on increasingly complex-->
+    <!--            distributed infrastructures. The figure below shows an overview of the workflow research life cycle process-->
+    <!--            that integrates the three axis of the WorkflowHub project:-->
+    <!--        </p>-->
+    <!--        <footer>-->
+    <!--            <ul class="actions">-->
+    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
+    <!--            </ul>-->
+    <!--            <ul class="stats">-->
+    <!--                <li><a href="#">General</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
+    <!--            </ul>-->
+    <!--        </footer>-->
+    <!--    </article>-->
 
-<!--    &lt;!&ndash; Post &ndash;&gt;-->
-<!--    <article class="post">-->
-<!--        <header>-->
-<!--            <div class="title">-->
-<!--                <h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>-->
-<!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-<!--            </div>-->
-<!--            <div class="meta">-->
-<!--                <time class="published" datetime="2015-10-25">October 25, 2015</time>-->
-<!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-<!--            </div>-->
-<!--        </header>-->
-<!--        <a href="single.html" class="image featured"><img src="images/pic02.jpg" alt=""/></a>-->
-<!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
-<!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
-<!--            ullam corper.</p>-->
-<!--        <footer>-->
-<!--            <ul class="actions">-->
-<!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-<!--            </ul>-->
-<!--            <ul class="stats">-->
-<!--                <li><a href="#">General</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-<!--            </ul>-->
-<!--        </footer>-->
-<!--    </article>-->
+    <!--    &lt;!&ndash; Post &ndash;&gt;-->
+    <!--    <article class="post">-->
+    <!--        <header>-->
+    <!--            <div class="title">-->
+    <!--                <h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>-->
+    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
+    <!--            </div>-->
+    <!--            <div class="meta">-->
+    <!--                <time class="published" datetime="2015-10-25">October 25, 2015</time>-->
+    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
+    <!--            </div>-->
+    <!--        </header>-->
+    <!--        <a href="single.html" class="image featured"><img src="images/pic02.jpg" alt=""/></a>-->
+    <!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
+    <!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
+    <!--            ullam corper.</p>-->
+    <!--        <footer>-->
+    <!--            <ul class="actions">-->
+    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
+    <!--            </ul>-->
+    <!--            <ul class="stats">-->
+    <!--                <li><a href="#">General</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
+    <!--            </ul>-->
+    <!--        </footer>-->
+    <!--    </article>-->
 
-<!--    &lt;!&ndash; Post &ndash;&gt;-->
-<!--    <article class="post">-->
-<!--        <header>-->
-<!--            <div class="title">-->
-<!--                <h2><a href="single.html">Euismod et accumsan</a></h2>-->
-<!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-<!--            </div>-->
-<!--            <div class="meta">-->
-<!--                <time class="published" datetime="2015-10-22">October 22, 2015</time>-->
-<!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-<!--            </div>-->
-<!--        </header>-->
-<!--        <a href="single.html" class="image featured"><img src="images/pic03.jpg" alt=""/></a>-->
-<!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
-<!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
-<!--            ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,-->
-<!--            ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis-->
-<!--            suscipit. Quisque vestibulum rhoncus ligula.</p>-->
-<!--        <footer>-->
-<!--            <ul class="actions">-->
-<!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-<!--            </ul>-->
-<!--            <ul class="stats">-->
-<!--                <li><a href="#">General</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-<!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-<!--            </ul>-->
-<!--        </footer>-->
-<!--    </article>-->
+    <!--    &lt;!&ndash; Post &ndash;&gt;-->
+    <!--    <article class="post">-->
+    <!--        <header>-->
+    <!--            <div class="title">-->
+    <!--                <h2><a href="single.html">Euismod et accumsan</a></h2>-->
+    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
+    <!--            </div>-->
+    <!--            <div class="meta">-->
+    <!--                <time class="published" datetime="2015-10-22">October 22, 2015</time>-->
+    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
+    <!--            </div>-->
+    <!--        </header>-->
+    <!--        <a href="single.html" class="image featured"><img src="images/pic03.jpg" alt=""/></a>-->
+    <!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
+    <!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
+    <!--            ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,-->
+    <!--            ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis-->
+    <!--            suscipit. Quisque vestibulum rhoncus ligula.</p>-->
+    <!--        <footer>-->
+    <!--            <ul class="actions">-->
+    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
+    <!--            </ul>-->
+    <!--            <ul class="stats">-->
+    <!--                <li><a href="#">General</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
+    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
+    <!--            </ul>-->
+    <!--        </footer>-->
+    <!--    </article>-->
 
     <!-- Post -->
     <!--
@@ -410,9 +453,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     -->
 
     <!-- Pagination -->
-<!--    <ul class="actions pagination">-->
-<!--        <li><a href="" class="disabled button large previous">Previous Page</a></li>-->
-<!--        <li><a href="#" class="button large next">Next Page</a></li>-->
-<!--    </ul>-->
+    <!--    <ul class="actions pagination">-->
+    <!--        <li><a href="" class="disabled button large previous">Previous Page</a></li>-->
+    <!--        <li><a href="#" class="button large next">Next Page</a></li>-->
+    <!--    </ul>-->
 
 </div>
