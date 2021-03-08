@@ -4148,3 +4148,28 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 .post .title img {
     max-height: 0.85em;
 }
+
+.trace {
+    display: block;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+.trace:hover {
+    box-shadow: #ccc 3px 3px 3px;
+    text-decoration: none;
+}
+
+.trace .header {
+    padding: 1em;
+    border-bottom: 1px solid #eee;
+}
+
+.trace .header h1 {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.trace .footer {
+    padding: 1em 1em 0.5em 1em;
+}
