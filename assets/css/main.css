@@ -184,11 +184,11 @@ a:before {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #2ebaae !important;
+    color: #A43074 !important;
 }
 
 a:hover:before {
-    color: #2ebaae !important;
+    color: #A43074 !important;
 }
 
 strong, b {
