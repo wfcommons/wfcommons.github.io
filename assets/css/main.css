@@ -4134,8 +4134,13 @@ li:nth-child(n+1):nth-last-child(-n+1) {
     border-bottom: 0;
 }
 
+.dropdown-menu {
+    top: 1em;
+}
+
 .dropdown-item {
     padding: 1em 1em 1em 2em;
     text-transform: none !important;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
+    font-weight: bold;
 }
