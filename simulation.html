@@ -1,0 +1,87 @@
+---
+layout: default
+permalink: /simulation
+---
+
+<!-- Main -->
+<div id="main">
+
+    {% assign num_sim = site.data.simulators | size %}
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2><img src="/images/wfcommons-red-leaf.png" alt=""/> WfSim</h2>
+                <p>Workflow Simulation</p>
+            </div>
+            <div class="meta">
+                <div style="line-height: 1.5em">
+                    <span style="font-size: 2.5em" class="wfsim">{{ num_sim }}</span>
+                    <p style="color: #666; line-height: 1.3em; margin-top: 0">workflow <strong>simulators</strong>
+                    </p>
+                </div>
+            </div>
+        </header>
+        <p>
+            An alternative to conducting scientific workflow research via real-world experiments is to use simulation,
+            i.e., implement a software artifact that models the functional and performance behaviors of software and
+            hardware stacks of interest.
+            Simulation is used in many computer science domains and can address the limitations of real-world
+            experiments, e.g. they are confined to application and platform configurations available at hand, and thus
+            cover only a small subset of the relevant scenarios that may be encountered in practice.
+        </p>
+        <p>
+            <strong class="wfsim">WfSim</strong> fosters the use of simulation for the development, evaluation, and
+            verification of scheduling and resource provisioning algorithms (e.g., multi-objective function
+            optimization, etc.), evaluation of current and emerging computing platforms (e.g., clouds, IoT, extreme
+            scale, etc.), among others.
+        </p>
+        <p>
+            In this page, we keep a list of <strong>open source</strong> workflow management systems simulators and
+            simulation frameworks that provide support for <a href="/format" class="wfformat">WfFormat</a>, which is
+            used for generating workflow execution traces (<a href="/traces" class="wftraces">WfTraces</a>), and
+            synthetic workflows obtained with <a href="/generator" class="wfgenerator">WfGen</a>.
+        </p>
+        <p>
+            We are constantly seeking for additional simulators to be added to the list below. If you want to also have
+            your simulator listed in this page, please
+            <a href="mailto:support@wfcommons.org?subject=WfSim - Contribution" class="wfsim">contact us</a>. Note that
+            each simulator should be compatible with <a href="/format" class="wfformat">WfFormat</a>.
+        </p>
+
+    </article>
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h3>Open Access Simulator Repositories</h3>
+                <p>List of Workflow Simulators</p>
+            </div>
+        </header>
+        <div class="row">
+            {% for s in site.data.simulators %}
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <a href="{{ s.website }}" class="trace" target="_blank">
+                    <div class="header">
+                        <h1 class="wfsim">{{ s.name }}</h1>
+                    </div>
+                    <div style="padding: 1em; color: #666; text-align: left; border-bottom: 1px solid #eee; font-size: 0.9em">
+                        {{ s.description }}
+                    </div>
+                    <div class="footer">
+                        {% if s.action %}
+                        <img src="{{ s.website }}/workflows/{{ s.action }}/badge.svg" alt="build"/>
+                        {% endif %}
+                        &nbsp;
+                        {% if s.release %}
+                        <img src="{{ s.release }}" alt="Zenodo"/>
+                        {% endif %}
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        <p></p>
+    </article>
+
+</div>

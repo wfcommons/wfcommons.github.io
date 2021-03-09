@@ -4211,3 +4211,7 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 .wfgenerator {
     color: #EF762F !important;
 }
+
+.wfsim {
+    color: #EC302D !important;
+}

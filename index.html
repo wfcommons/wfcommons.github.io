@@ -8,6 +8,7 @@ permalink: /
 
     {% assign num_traces = 0 %}
     {% assign num_apps = 0 %}
+    {% assign num_sim = site.data.simulators | size %}
     {% for trace in site.data.traces %}
     {% assign num_traces = num_traces | plus: trace.traces %}
     {% assign num_apps = num_apps | plus: trace.applications %}
@@ -38,6 +39,13 @@ permalink: /
                     </div>
                 </div>
                 <div class="col-md-3">
+                    <div style="line-height: 3em">
+                        <span style="font-size: 3em" class="timer wfsim" data-from="1"
+                              data-to="{{ num_sim }}"></span>
+                    </div>
+                    <div style="line-height: 1.2em">
+                        <p style="color: #666; padding-right: 1em">workflow <strong>simulators</strong></p>
+                    </div>
                 </div>
                 <div class="col-md-3">
                 </div>
