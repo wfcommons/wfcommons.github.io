@@ -4153,6 +4153,7 @@ li:nth-child(n+1):nth-last-child(-n+1) {
     display: block;
     border: 1px solid #eee;
     cursor: pointer;
+    margin-bottom: 1em;
 }
 
 .trace:hover {
@@ -4191,4 +4192,10 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 
 .trace .footer {
     padding: 1em 1em 0.5em 1em;
+}
+
+.trace .footer a {
+    display: none;
+    border: 0;
+    margin: 0;
 }

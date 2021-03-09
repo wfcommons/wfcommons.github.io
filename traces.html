@@ -85,7 +85,13 @@ permalink: /traces
                         </div>
                     </div>
                     <div class="footer">
+                        {% if t.action %}
                         <img src="{{ t.website }}/workflows/{{ t.action }}/badge.svg"/>
+                        {% endif %}
+                        &nbsp;
+                        {% if t.zenodo %}
+                        <img src="https://zenodo.org/badge/{{ t.zenodo }}.svg" alt="Zenodo"/>
+                        {% endif %}
                     </div>
                 </a>
             </div>
