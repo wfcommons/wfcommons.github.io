@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /format
+---
+
+<!-- Main -->
+<div id="main">
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2><img src="/images/wfcommons-lgreen-leaf.png" alt=""/> WfFormat</h2>
+                <p>The WfCommons JSON Format</p>
+            </div>
+        </header>
+        <p>
+            WfCommons uses a <strong>common format</strong> for representing workflow execution traces and generated
+            synthetic workflows traces, so that workflow simulators and simulation frameworks (that provide support for
+            <span class="wfformat">WfFormat</span>) can use such traces interchangeably.
+        </p>
+        <p>
+            This common format uses a JSON specification available in the <a
+                href="https://github.com/wfcommons/workflow-schema" target="_blank">WfCommons JSON schema GitHub</a>
+            repository. The schema GitHub repository provides detailed explanation of <span
+                class="wfformat">WfFormat</span> (including required fields), and a validator script for verifying the
+            compatibility of traces.
+        </p>
+        <p>
+            Below, is a visualization of the schema version <code>1.1</code>:
+        </p>
+        <iframe src="https://wfcommons.org/json-schema-viewer/basic.html#"
+                style="width: 100%; border: 0; min-height: 40em"></iframe>
+    </article>
+
+</div>

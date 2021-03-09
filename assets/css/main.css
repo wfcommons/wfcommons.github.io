@@ -4199,3 +4199,15 @@ li:nth-child(n+1):nth-last-child(-n+1) {
     border: 0;
     margin: 0;
 }
+
+.wfformat {
+    color: #A59E47 !important;
+}
+
+.wftraces {
+    color: #48B54E !important;
+}
+
+.wfgenerator {
+    color: #EF762F !important;
+}
