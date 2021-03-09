@@ -1,0 +1,56 @@
+---
+layout: default
+permalink: /generator
+---
+
+<!-- Main -->
+<div id="main">
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2><img src="/images/wfcommons-orange-leaf.png" alt=""/> WfGenerator</h2>
+                <p>Workflow Execution Traces</p>
+            </div>
+        </header>
+        <p>
+            <strong style="color: #EF762F">WfGenerator</strong> targets the generation of <strong>realistic</strong>
+            synthetic workflow traces with a variety of characteristics. The workflow generator, provided as part of the
+            <strong><a href="https://docs.wfcommons.org" target="_blank">WfCommons Python package</a></strong>, uses
+            recipes of workflows for creating different synthetic workflows based on distributions of
+            workflow job runtime, and input and output file sizes. The resulting workflows are represented in the
+            <strong><a href="/json-format">WfCommons JSON format</a></strong>, which is already supported by simulation
+            frameworks such as <a href="https://wrench-project.org" target="_blank">WRENCH</a>.
+        </p>
+        <p>
+            The WfCommons Python package provides a number of workflow recipes for generating realistic synthetic
+            workflow traces. Each recipe provides different methods for generating synthetic, yet realistic, workflow
+            traces depending on the properties that define the structure of the actual workflow.
+        </p>
+        <p>
+            The current list of
+            <a href="https://docs.wfcommons.org/en/latest/generating_workflows.html#workflow-recipes" target="_blank">
+                available workflow recipes
+            </a>
+            include the following workflow applications:
+        </p>
+        <ul>
+            <li><strong>1000Genome</strong>: A high-throughput data-intensive bioinformatics workflow.</li>
+            <li><strong>BLAST</strong>: A high-throughput compute-intensive bioinformatics workflow.</li>
+            <li><strong>BWA</strong>: A high-throughput data-intensive bioinformatics workflow.</li>
+            <li><strong>Cycles</strong>: A high-throughput compute-intensive scientific workflow for agroecosystems
+                modeling.
+            </li>
+            <li><strong>Epigenomics</strong>: A high-throughput data-intensive bioinformatics workflow.</li>
+            <li><strong>Montage</strong>: A high-throughput compute-intensive astronomy workflow.</li>
+            <li><strong>Seismology</strong>: A high-throughput data-intensive seismology workflow.</li>
+            <li><strong>SoyKB</strong>: A high-throughput data-intensive bioinformatics workflow.</li>
+            <li><strong>SRASearch</strong>: A high-throughput data-intensive bioinformatics workflow.</li>
+        </ul>
+        <p>
+            <strong style="color: #EF762F">WfGenerator</strong> is constantly evolving and additional workflow recipes
+            will be added into new releases of the Python package.
+        </p>
+    </article>
+
+</div>

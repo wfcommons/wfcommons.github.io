@@ -4151,7 +4151,7 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 
 .trace {
     display: block;
-    border: 1px solid #eee;
+    border: 1px solid #ddd;
     cursor: pointer;
     margin-bottom: 1em;
 }
