@@ -14,48 +14,65 @@ permalink: /
     {% assign num_apps = num_apps | plus: trace.applications %}
     {% endfor %}
 
-    <div class="row">
-        <article class="post">
-            <div class="title">
-                <h2>WfCommons in Numbers</h2>
-            </div>
-            <div class="row" style="margin-bottom: 2em">
-                <div class="col-md-3">
-                    <div style="line-height: 3em">
+    <article class="post">
+        <div class="title">
+            <h2>WfCommons in Numbers</h2>
+        </div>
+        <div class="row" style="margin-bottom: 2em">
+            <div class="col-md-3">
+                <div style="line-height: 3em">
                         <span style="font-size: 3em" class="timer wftraces" data-from="1"
                               data-to="{{ num_traces }}"></span>
-                    </div>
-                    <div style="line-height: 1.2em">
-                        <p style="color: #666; padding-right: 1em">workflow execution <strong>traces</strong></p>
-                    </div>
                 </div>
-                <div class="col-md-3">
-                    <div style="line-height: 3em">
-                        <span style="font-size: 3em; color: #999" class="timer" data-from="1"
-                              data-to="{{ num_apps }}"></span>
-                    </div>
-                    <div style="line-height: 1.2em">
-                        <p style="color: #666; padding-right: 1em">workflow <strong>applications</strong></p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div style="line-height: 3em">
-                        <span style="font-size: 3em" class="timer wfsim" data-from="1"
-                              data-to="{{ num_sim }}"></span>
-                    </div>
-                    <div style="line-height: 1.2em">
-                        <p style="color: #666; padding-right: 1em">workflow <strong>simulators</strong></p>
-                    </div>
-                </div>
-                <div class="col-md-3">
+                <div style="line-height: 1.2em">
+                    <p style="color: #666; padding-right: 1em">workflow execution <strong>traces</strong></p>
                 </div>
             </div>
-        </article>
-    </div>
+            <div class="col-md-3">
+                <div style="line-height: 3em">
+                        <span style="font-size: 3em; color: #999" class="timer" data-from="1"
+                              data-to="{{ num_apps }}"></span>
+                </div>
+                <div style="line-height: 1.2em">
+                    <p style="color: #666; padding-right: 1em">workflow <strong>applications</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="line-height: 3em">
+                        <span style="font-size: 3em" class="timer wfsim" data-from="1"
+                              data-to="{{ num_sim }}"></span>
+                </div>
+                <div style="line-height: 1.2em">
+                    <p style="color: #666; padding-right: 1em">workflow <strong>simulators</strong></p>
+                </div>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+    </article>
 
     <script type="text/javascript">
         $('.timer').countTo();
     </script>
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2>The WfCommons Project</h2>
+                <p>Enabling Scientific Workflow Mangement Systems Research and Development</p>
+            </div>
+        </header>
+        <p>
+            The WfCommons project is a community framework for enabling scientific workflow research and development by
+            providing foundational tools for analyzing workflow execution traces, generating workflow recipes,
+            and generating synthetic, yet realistic, workflow traces that can be used to develop new techniques,
+            algorithms and systems that can overcome the challenges of efficient and robust execution of ever larger
+            workflows on increasingly complex distributed infrastructures. The figure below shows an overview of the
+            workflow research life cycle process that integrates the axes of the WfCommons project:
+        </p>
+        <img src="/images/wfcommons-concept.png" alt="WfCommons Concept"/>
+        <p></p>
+    </article>
 
     <!-- Post -->
     <!--    <article class="post">-->
