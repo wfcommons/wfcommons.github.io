@@ -10,6 +10,6 @@
   website: "https://github.com/wfcommons/pegasus-traces"
   applications: 7
   platforms: 1
-  traces: 126
+  traces: 135
   action: Build
   zenodo: 74868669
