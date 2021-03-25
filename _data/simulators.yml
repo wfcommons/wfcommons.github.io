@@ -7,6 +7,7 @@
 - name: "WRENCH-Pegasus"
   website: "https://github.com/wrench-project/pegasus"
   description: "A WRENCH-based simulator of the Pegasus WMS"
+  action: Build
   release: "https://img.shields.io/github/release/wrench-project/pegasus/all.svg"
 
 - name: "WRENCH-WorkQueue"
