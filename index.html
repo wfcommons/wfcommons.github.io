@@ -19,16 +19,16 @@ permalink: /
             <h2>WfCommons in Numbers</h2>
         </div>
         <div class="row" style="margin-bottom: 2em">
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div style="line-height: 3em">
                         <span style="font-size: 3em" class="timer wftraces" data-from="1"
                               data-to="{{ num_traces }}"></span>
                 </div>
                 <div style="line-height: 1.2em">
-                    <p style="color: #666; padding-right: 1em">workflow execution <strong>traces</strong></p>
+                    <p style="color: #666; padding-right: 1em">workflow execution <strong>instances</strong></p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div style="line-height: 3em">
                         <span style="font-size: 3em; color: #999" class="timer" data-from="1"
                               data-to="{{ num_apps }}"></span>
@@ -37,7 +37,7 @@ permalink: /
                     <p style="color: #666; padding-right: 1em">workflow <strong>applications</strong></p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <div style="line-height: 3em">
                         <span style="font-size: 3em" class="timer wfsim" data-from="1"
                               data-to="{{ num_sim }}"></span>
@@ -45,8 +45,6 @@ permalink: /
                 <div style="line-height: 1.2em">
                     <p style="color: #666; padding-right: 1em">workflow <strong>simulators</strong></p>
                 </div>
-            </div>
-            <div class="col-md-3">
             </div>
         </div>
     </article>
@@ -64,8 +62,8 @@ permalink: /
         </header>
         <p>
             The WfCommons project is a community framework for enabling scientific workflow research and development by
-            providing foundational tools for analyzing workflow execution traces, generating workflow recipes,
-            and generating synthetic, yet realistic, workflow traces that can be used to develop new techniques,
+            providing foundational tools for analyzing workflow execution instances, generating workflow recipes,
+            and generating synthetic, yet realistic, workflow instances that can be used to develop new techniques,
             algorithms and systems that can overcome the challenges of efficient and robust execution of ever larger
             workflows on increasingly complex distributed infrastructures. The figure below shows an overview of the
             workflow research life cycle process that integrates the axes of the WfCommons project:

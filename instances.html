@@ -1,7 +1,7 @@
 ---
 layout: default
-title: WfTraces
-permalink: /traces
+title: WfInstances
+permalink: /instances
 ---
 
 <!-- Main -->
@@ -17,37 +17,37 @@ permalink: /traces
     <article class="post">
         <header>
             <div class="title">
-                <h2><img src="/images/wfcommons-green-leaf.png" alt=""/> WfTraces</h2>
-                <p>Workflow Execution Traces</p>
+                <h2><img src="/images/wfcommons-green-leaf.png" alt=""/> WfInstances</h2>
+                <p>Workflow Execution Instances</p>
             </div>
             <div class="meta">
                 <div style="line-height: 1.5em">
                     <span style="font-size: 2.5em" class="wftraces">{{ num_traces }}</span>
-                    <p style="color: #666; line-height: 1.3em; margin-top: 0">workflow execution <strong>traces</strong>
+                    <p style="color: #666; line-height: 1.3em; margin-top: 0">workflow execution <strong>instances</strong>
                     </p>
                 </div>
             </div>
         </header>
         <p>
-            Workload traces are widely used to profile and characterize workflow executions, and to build distributions
+            Workload instances are widely used to profile and characterize workflow executions, and to build distributions
             of workflow execution behaviors, which are used to evaluate methods and techniques in simulation or in real
             conditions.
         </p>
         <p>
-            <strong class="wftraces">WfTraces</strong> provides the collection and curation of open access
-            production workflow executions from various scientific applications shared in a common trace format. The
+            <strong class="wftraces">WfInstances</strong> provides the collection and curation of open access
+            production workflow executions from various scientific applications shared in a common instance format. The
             <strong><a href="https://docs.wfcommons.org" target="_blank">WfCommons Python package</a></strong> provides
-            a set of tools for analyzing traces, which can be used to develop workflow recipes for the
+            a set of tools for analyzing instances, which can be used to develop workflow recipes for the
             <a href="/generator" class="wfgenerator">WfGen</a>.
         </p>
         <p>
-            In this page, we keep a list of open access workflow execution trace repositories that host traces compliant
+            In this page, we keep a list of open access workflow execution instance repositories that host instances compliant
             with The <a href="/format" class="wfformat">WfFormat</a> for describing workflow
-            executions. We are constantly seeking for additional workflow execution traces for refining or developing
-            new workflow recipes for the WfCommons’s <a href="/generator" class="wfgenerator">WfGen</a>.
+            executions. We are constantly seeking for additional workflow execution instances for refining or developing
+            new workflow recipes for the WfCommons's <a href="/generator" class="wfgenerator">WfGen</a>.
         </p>
         <p>
-            Workflow execution traces are organized into sub-folders within the repositories. Each sub-folder represents
+            Workflow execution instances are organized into sub-folders within the repositories. Each sub-folder represents
             a workflow application, which itself contains sub-folders for workflow executions in different computing
             platforms. For each workflow application, a <code>README.md</code> file provides detailed description of the
             workflow
@@ -58,8 +58,8 @@ permalink: /traces
     <article class="post">
         <header>
             <div class="title">
-                <h3>Open Access Trace Repositories</h3>
-                <p>List of Workflow Execution Traces</p>
+                <h3>Open Access Instances Repositories</h3>
+                <p>List of Workflow Execution Instances</p>
             </div>
         </header>
         <div class="row">
@@ -73,7 +73,7 @@ permalink: /traces
                         <div class="row">
                             <div class="col-4" style="padding: 1em; background-color: #777">
                                 <strong>{{ t.traces }}</strong>
-                                <br/>traces
+                                <br/>instances
                             </div>
                             <div class="col-4" style="padding: 1em; background-color: #48B54E">
                                 <strong>{{ t.applications }}</strong>
