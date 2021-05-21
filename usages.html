@@ -1,0 +1,29 @@
+---
+layout: default
+title: They use WfCommons
+permalink: /usages
+---
+
+<!-- Main -->
+<div id="main">
+
+    <article class="post">
+        <header>
+            <div class="title">
+                <h2>They use WfCommons</h2>
+                <p>Projects and publications that use WfCommons</p>
+            </div>
+        </header>
+        <h3>Publications that have used WfCommons</h3>
+        <ol reversed>
+            {% for p in site.data.usages.publications %}
+            <li>
+                {{ p.authors }},
+                <a href="{{ p.link }}" target="_blank">{{ p.title }}</a>,
+                <i>{{ p.book }}</i>, {{ p.year }}.
+            </li>
+            {% endfor %}
+        </ol>
+    </article>
+
+</div>

@@ -1,0 +1,9 @@
+publications:
+    - title: "DDBWS: a dynamic deadline and budget-aware workflow scheduling algorithm in workflow-as-a-service environments"
+      authors: E. Saeedizade, M. Ashtiani
+      type: journal
+      book: The Journal of Supercomputing
+      year: 2021
+      link: https://doi.org/10.1007/s11227-021-03858-6
+
+
