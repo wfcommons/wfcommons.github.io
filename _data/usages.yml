@@ -12,3 +12,10 @@ publications:
       book: The Journal of Supercomputing
       year: 2021
       link: https://doi.org/10.1007/s11227-021-03858-6
+
+    - title: "Evaluating Energy-Aware Scheduling Algorithms for I/O-Intensive Scientific Workflows"
+      authors: T. Coleman, H. Casanova, T. Gwartney, R. Ferreira da Silva
+      type: conference
+      book: International Conference on Computational Science (ICCS)
+      year: 2021
+      link: https://doi.org/10.1007/978-3-030-77961-0_16 
