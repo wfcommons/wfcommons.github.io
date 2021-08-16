@@ -1,4 +1,11 @@
 publications:
+    - title: "Optimal task scheduling for partially heterogeneous systems"
+      authors: M. Orr, O. Sinnen
+      type: journal
+      book: "Parallel Computing"
+      year: 2021
+      link: https://doi.org/10.1016/j.parco.2021.102815
+
     - title: "Checkpointing Workflows à la Young/Daly Is Not Good Enough"
       authors: A. Benoit, L. Perotin, Y. Robert, H. Sun
       type: journal
