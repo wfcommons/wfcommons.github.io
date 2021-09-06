@@ -1,10 +1,18 @@
-- name: "Makeflow Execution Instances"
-  website: "https://github.com/wfcommons/makeflow-instances"
+- name: Makeflow Execution Instances
+  website: https://github.com/wfcommons/makeflow-instances
   applications: 2
   platforms: 1
   traces: 30
   action: Build
   zenodo: 324824708
+  
+- name: Nextflow Execution Instances
+  website: https://github.com/wfcommons/nextflow-instances
+  applications: 5
+  platforms: 1
+  traces: 5
+  action: Build
+  zenodo: 403473293
 
 - name: "Pegasus Execution Instances"
   website: "https://github.com/wfcommons/pegasus-instances"
