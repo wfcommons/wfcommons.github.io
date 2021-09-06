@@ -14,8 +14,8 @@
   action: Build
   zenodo: 403473293
 
-- name: "Pegasus Execution Instances"
-  website: "https://github.com/wfcommons/pegasus-instances"
+- name: Pegasus Execution Instances
+  website: https://github.com/wfcommons/pegasus-instances
   applications: 7
   platforms: 1
   traces: 135
