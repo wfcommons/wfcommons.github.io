@@ -278,11 +278,11 @@ pre {
 }
 
 .wrap {
-    white-space: pre-wrap;       /* css-3 */
-    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-    white-space: -pre-wrap;      /* Opera 4-6 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
 pre code {
@@ -2641,10 +2641,10 @@ ul.posts article header > :last-child {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    -moz-flex-direction: column-reverse;
-    -webkit-flex-direction: column-reverse;
-    -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     background: #ffffff;
     border: solid 1px rgba(160, 160, 160, 0.3);
     margin: 0 0 2em 0;
@@ -4224,4 +4224,15 @@ li:nth-child(n+1):nth-last-child(-n+1) {
 
 .wfsim {
     color: #EC302D !important;
+}
+
+.install .title {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.install .badge {
+    border-bottom: 0;
+    margin-top: 0.5em;
+    text-align: right;
 }
