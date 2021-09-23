@@ -26,3 +26,10 @@ publications:
       book: International Conference on Computational Science (ICCS)
       year: 2021
       link: https://doi.org/10.1007/978-3-030-77961-0_16 
+   
+    - title: "An Approach for Automating the Calibration of Simulations of Parallel and Distributed Computing Systems"
+      authors: W. Koch
+      type: phd thesis
+      year: 2021
+      link: https://www.proquest.com/docview/2570179299?pq-origsite=gscholar&fromopenview=true
+      
