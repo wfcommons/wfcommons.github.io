@@ -1,35 +1,36 @@
 publications:
     - title: "Optimal task scheduling for partially heterogeneous systems"
       authors: M. Orr, O. Sinnen
-      type: journal
+      type: Journal
       book: "Parallel Computing"
       year: 2021
       link: https://doi.org/10.1016/j.parco.2021.102815
 
     - title: "Checkpointing Workflows à la Young/Daly Is Not Good Enough"
       authors: A. Benoit, L. Perotin, Y. Robert, H. Sun
-      type: journal
+      type: Journal
       book: ""
       year: 2021
       link: https://hal.inria.fr/hal-03264047/
 
     - title: "DDBWS: a dynamic deadline and budget-aware workflow scheduling algorithm in workflow-as-a-service environments"
       authors: E. Saeedizade, M. Ashtiani
-      type: journal
+      type: Journal
       book: The Journal of Supercomputing
       year: 2021
       link: https://doi.org/10.1007/s11227-021-03858-6
 
     - title: "Evaluating Energy-Aware Scheduling Algorithms for I/O-Intensive Scientific Workflows"
       authors: T. Coleman, H. Casanova, T. Gwartney, R. Ferreira da Silva
-      type: conference
+      type: Conference
       book: International Conference on Computational Science (ICCS)
       year: 2021
       link: https://doi.org/10.1007/978-3-030-77961-0_16 
    
     - title: "An Approach for Automating the Calibration of Simulations of Parallel and Distributed Computing Systems"
       authors: W. Koch
-      type: phd thesis
+      type: PhD Thesis
       year: 2021
+      book: PhD Thesis
       link: https://www.proquest.com/docview/2570179299?pq-origsite=gscholar&fromopenview=true
       
