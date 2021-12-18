@@ -1,8 +1,15 @@
 publications:
+    - title: "MCDS: AI Augmented Workflow Scheduling in Mobile Edge Cloud Computing Systems"
+      authors: S. Tuli, G. Casale, N. R. Jennings
+      type: Journal
+      book: IEEE Transactions on Parallel and Distributed Systems
+      year: 2021
+      link: https://arxiv.org/abs/2112.07269
+
     - title: "Optimal task scheduling for partially heterogeneous systems"
       authors: M. Orr, O. Sinnen
       type: Journal
-      book: "Parallel Computing"
+      book: Parallel Computing
       year: 2021
       link: https://doi.org/10.1016/j.parco.2021.102815
 
