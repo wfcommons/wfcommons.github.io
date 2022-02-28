@@ -1,4 +1,11 @@
 publications:
+    - title: "FaaSFlow: enable efficient workflow execution for function-as-a-service"
+      authors: Z. Li, Y. Liu, L. Guo, Q. Chen, J. Cheng, W. Zheng, M. Guo
+      type: Conference
+      book: 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems
+      year: 2022
+      link: https://doi.org/10.1145/3503222.3507717
+    
     - title: "MCDS: AI Augmented Workflow Scheduling in Mobile Edge Cloud Computing Systems"
       authors: S. Tuli, G. Casale, N. R. Jennings
       type: Journal
