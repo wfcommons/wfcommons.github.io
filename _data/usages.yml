@@ -18,7 +18,7 @@ publications:
       type: Journal
       book: IEEE Transactions on Parallel and Distributed Systems
       year: 2021
-      link: https://arxiv.org/abs/2112.07269
+      link: https://doi.org/10.1109/TPDS.2021.3135907
 
     - title: "Optimal task scheduling for partially heterogeneous systems"
       authors: M. Orr, O. Sinnen
