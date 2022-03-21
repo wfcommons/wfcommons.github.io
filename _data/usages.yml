@@ -1,4 +1,11 @@
 publications:
+    - title: Local search driven periodic scheduling for workflows with random task runtime in clouds
+      authors: L. Xing, M. Zhang, H. Li, M. Gong, J. Yang, K. Wang
+      type: Journal
+      book: Computers & Industrial Engineering
+      year: 2022
+      link: https://doi.org/10.1016/j.cie.2022.108033
+
     - title: "FaaSFlow: enable efficient workflow execution for function-as-a-service"
       authors: Z. Li, Y. Liu, L. Guo, Q. Chen, J. Cheng, W. Zheng, M. Guo
       type: Conference
