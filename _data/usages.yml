@@ -1,4 +1,11 @@
 publications:
+    - title: On the Feasibility of Simulation-driven Portfolio Scheduling for Cyberinfrastructure Runtime Systems
+      authors: H. Casanova, Y.C. Wong, L. Pottier, R. Ferreira da Silva
+      type: Workshop
+      book: Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP)
+      year: 2022
+      link: https://henricasanova.github.io/files/papers/casanova_jsspp2022.pdf
+
     - title: Local search driven periodic scheduling for workflows with random task runtime in clouds
       authors: L. Xing, M. Zhang, H. Li, M. Gong, J. Yang, K. Wang
       type: Journal
