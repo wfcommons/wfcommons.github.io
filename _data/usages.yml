@@ -1,4 +1,11 @@
 publications:
+    - title: DAG Scheduling with Communication Delays Based on Graph Convolutional Neural Network
+      authors: Z. Zhang, Q-S. Hua, X. Zhang, H. Jin, X. Liao
+      type: Journal
+      book: Wireless Communications and Mobile Computing
+      year: 2022
+      link: https://doi.org/10.1155/2022/9013361
+
     - title: On the Feasibility of Simulation-driven Portfolio Scheduling for Cyberinfrastructure Runtime Systems
       authors: H. Casanova, Y.C. Wong, L. Pottier, R. Ferreira da Silva
       type: Workshop
