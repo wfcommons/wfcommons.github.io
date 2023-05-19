@@ -8,9 +8,9 @@
   
 - name: Nextflow Execution Instances
   website: https://github.com/wfcommons/nextflow-instances
-  applications: 5
+  applications: 15
   platforms: 1
-  traces: 5
+  traces: 15
   action: Build
   zenodo: 403473293
 
