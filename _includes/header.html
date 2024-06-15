@@ -1,42 +1,85 @@
-<header id="header">
-    <h1><a href="/"><img src="/images/wfcommons-horizontal.png" style="width: 10em" alt=""/></a></h1>
-    <nav class="links">
-        <ul>
-            <li class="dropdown">
-                <a class="dropdown-toggle" href="#" id="frameworkDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Framework
-                </a>
-                <div class="dropdown-menu" aria-labelledby="frameworkDropdown">
-                    <a class="dropdown-item" href="https://docs.wfcommons.org" target="_blank">
-                        <img src="/favicon.ico"/> WfCommons Python Package
-                    </a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="/format"><img src="/images/wfcommons-lgreen-leaf.png"/> WfFormat</a>
-                    <a class="dropdown-item" href="/instances"><img src="/images/wfcommons-green-leaf.png"/> WfInstances</a>
-                    <a class="dropdown-item" href="/generator"><img src="/images/wfcommons-orange-leaf.png"/>
-                        WfGen</a>
-                    <a class="dropdown-item" href="/simulation"><img src="/images/wfcommons-red-leaf.png"/> WfSim</a>
-                </div>
-            </li>
-            <li><a href="https://docs.wfcommons.org">Documentation</a></li>
-            <li><a href="/contribute">Contribute</a></li>
-            <li><a href="/publications">Publications</a></li>
-            <li><a href="/usages">They Use WfCommons</a></li>
-        </ul>
-    </nav>
-    <nav class="main">
-        <ul>
-            <!--            <li class="search">-->
-            <!--                <a class="fa-search" href="#search">Search</a>-->
-            <!--                <form id="search" method="get" action="#">-->
-            <!--                    <input type="text" name="query" placeholder="Search"/>-->
-            <!--                </form>-->
-            <!--            </li>-->
-            <li class="menu">
-                <a class="fa-bars" href="#menu">Menu</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+<header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+    <div id="header" class="nav-collapse">
+        <div class="row clearfix">
+            <div class="col-1">
 
+                <!--Logo-->
+                <div id="logo">
+
+                    <!--Logo that is shown on the banner-->
+                    <img src="images/wfcommons-horizontal.png" id="banner-logo" alt="Landing Page" />
+                    <!--End of Banner Logo-->
+
+                    <!--The Logo that is shown on the sticky Navigation Bar-->
+                    <img src="images/wfcommons-horizontal.png" id="navigation-logo" alt="Landing Page" />
+                    <!--End of Navigation Logo-->
+
+                </div>
+                <!--End of Logo-->
+
+                <!--Main Navigation-->
+                <nav id="nav-main">
+                    <ul>
+                        <li>
+                            <a href="#banner">Home</a>
+                        </li>
+                        <li>
+                            <a href="#framework">Framework</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#clients">Clients</a>
+                        </li>
+                        <li>
+                            <a href="#pricing">Pricing</a>
+                        </li> -->
+                    </ul>
+                </nav>
+                <!--End of Main Navigation-->
+
+                <div id="nav-trigger"><span></span></div>
+                <nav id="nav-mobile"></nav>
+
+            </div>
+        </div>
+    </div><!--End of Header-->
+
+    <!--Banner Content-->
+    <div id="banner-content" class="row clearfix">
+
+        <div class="col-38">
+
+            <div class="section-heading">
+                <h1 style="text-transform: uppercase; font-size: 2.4em; line-height: 1.2em;">Empowering scientific
+                    workflow research</h1>
+                <h2>Harnessing open-source methods for scientific workflow analysis, recipe derivation, synthetic
+                    instance generation, and benchmark specification</h2>
+            </div>
+
+            <a href="https://docs.wfcommons.org" target="_blank" class="button">DOCUMENTATION</a>
+            <div>
+                <a href="https://badge.fury.io/py/wfcommons" target="_blank">
+                    <img src="https://badge.fury.io/py/wfcommons.svg" />
+                </a>&nbsp;&nbsp;
+                <a href="https://pepy.tech/project/wfcommons" target="_blank">
+                    <img
+                        src="https://static.pepy.tech/personalized-badge/wfcommons?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" />
+                </a>&nbsp;&nbsp;
+                <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank"
+                    style="border-bottom: 0">
+                    <img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg" />
+                </a>
+            </div>
+
+        </div>
+
+    </div><!--End of Row-->
+</header>

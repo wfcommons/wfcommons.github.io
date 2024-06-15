@@ -3,522 +3,106 @@ layout: default
 permalink: /
 ---
 
-<!-- Main -->
-<div id="main">
+<!--Main Content Area-->
+<main id="content">
 
-    {% assign num_traces = 0 %}
-    {% assign num_apps = 0 %}
-    {% assign num_sim = site.data.simulators | size %}
-    {% for trace in site.data.traces %}
-    {% assign num_traces = num_traces | plus: trace.traces %}
-    {% assign num_apps = num_apps | plus: trace.applications %}
-    {% endfor %}
+    <!--Introduction-->
+    <section id="framework" class="introduction scrollto">
 
-    <article class="post">
-        <div class="title">
-            <h2>WfCommons in Numbers</h2>
+        <div class="row clearfix">
+
+            <div class="col-3">
+                <div class="section-heading">
+                    <h3>THE WFCOMMONS FRAMEWORK</h3>
+                    <h2 class="section-title">Advanced Workflow Analysis and Development Tools</h2>
+                    <p class="section-subtitle">WfCommons is a collaborative framework empowering <strong>scientific
+                            workflow research and development</strong>. Our tools analyze workflow execution instances,
+                        generate synthetic yet realistic workflows, define benchmark specifications, and pioneer new
+                        techniques to optimize execution on complex distributed infrastructures.</p>
+                </div>
+
+            </div>
+
+            <div class="col-2-3">
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-lgreen-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>FORMAT</h4>
+                        <p>A universal JSON format, ensuring seamless integration across simulators and frameworks
+                            supported by WfCommons</p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-green-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>INSTANCES</h4>
+                        <p>Curated collection of open-access production workflow executions in the standardized WfFormat
+                        </p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-purple-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>CHEF</h4>
+                        <p>Automated creation of synthetic workflow generators by analyzing real workflows to uncover
+                            task patterns and performance characteristics</p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-orange-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>GEN</h4>
+                        <p>Automated generation of realistic synthetic workflows using recipes to create diverse
+                            instances for simulation or benchmark generation</p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-lblue-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>BENCH</h4>
+                        <p>Generate realistic workflow benchmarks with diverse performance characteristics and task
+                            dependencies for current workflow systems</p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+                <!--Icon Block-->
+                <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                    <!--Icon Block Description-->
+                    <div class="icon-block-description">
+                        <h4><img src="/images/wfcommons-red-leaf.png" style="width: 1em; vertical-align: middle;" />
+                            &nbsp;&nbsp;<span style="color: #999">WF</span>SIM</h4>
+                        <p>Facilitate simulation for developing and evaluating scheduling algorithms and computing
+                            platforms, overcoming real-world limitations</p>
+                    </div>
+                </div>
+                <!--End of Icon Block-->
+
+            </div>
+
         </div>
-        <div class="row" style="margin-bottom: 2em">
-            <div class="col-md-4">
-                <div style="line-height: 3em">
-                        <span style="font-size: 3em" class="timer wftraces" data-from="1"
-                              data-to="{{ num_traces }}"></span>
-                </div>
-                <div style="line-height: 1.2em">
-                    <p style="color: #666; padding-right: 1em">workflow execution <strong>instances</strong></p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div style="line-height: 3em">
-                        <span style="font-size: 3em; color: #999" class="timer" data-from="1"
-                              data-to="{{ num_apps }}"></span>
-                </div>
-                <div style="line-height: 1.2em">
-                    <p style="color: #666; padding-right: 1em">workflow <strong>applications</strong></p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div style="line-height: 3em">
-                        <span style="font-size: 3em" class="timer wfsim" data-from="1"
-                              data-to="{{ num_sim }}"></span>
-                </div>
-                <div style="line-height: 1.2em">
-                    <p style="color: #666; padding-right: 1em">workflow <strong>simulators</strong></p>
-                </div>
-            </div>
-        </div>
-    </article>
 
-    <script type="text/javascript">
-        $('.timer').countTo();
-    </script>
 
-    <article class="post">
-        <header>
-            <div class="title">
-                <h2>The WfCommons Project</h2>
-                <p>Enabling Scientific Workflow Mangement Systems Research and Development</p>
-            </div>
-        </header>
-        <p>
-            The WfCommons project is a framework for enabling scientific workflow research and development by
-            providing foundational tools for analyzing workflow execution instances, generating workflow recipes,
-            and generating synthetic, yet realistic, workflow instances that can be used to develop new techniques,
-            algorithms and systems that can overcome the challenges of efficient and robust execution of ever larger
-            workflows on increasingly complex distributed infrastructures. The figure below shows an overview of the
-            workflow research life cycle process that integrates the components of the WfCommons project:
-        </p>
-        <img src="/images/wfcommons-concept.png" alt="WfCommons Concept" style="max-width: 40em"/>
-        <p></p>
-    </article>
+    </section>
+    <!--End of Introduction-->
 
-    <article class="post">
-        <header>
-            <div class="title">
-                <h2><a href="single.html">The WfCommons Python Package</a></h2>
-                <p></p>
-            </div>
-            <div class="meta" style="padding: 3em 1em">
-                <a href="https://badge.fury.io/py/wfcommons" target="_blank" style="border-bottom: 0">
-                    <img src="https://badge.fury.io/py/wfcommons.svg"/>
-                </a>
-                <a href="https://docs.wfcommons.org" target="_blank" style="border-bottom: 0">
-                    <img src="https://readthedocs.org/projects/wfcommons/badge/?version=latest"/>
-                </a>
-                <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank"
-                   style="border-bottom: 0">
-                    <img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg"/>
-                </a>
-                <a href="https://github.com/wfcommons/wfcommons/actions" target="_blank" style="border-bottom: 0">
-                    <img src="https://github.com/wfcommons/wfcommons/workflows/Build/badge.svg"/>
-                </a>
-            </div>
-        </header>
-        <p>
-            In order to allow users to easily interact with workflow execution instances and
-            synthetic workflows, the WfCommons project provides a collection of tools
-            released as an open source Python package, in which enables:
-        </p>
-        <ul>
-            <li>Analysis of instances of actual workflow executions;</li>
-            <li>Production of recipes structures for creating workflow recipes for workflow generation; and</li>
-            <li>Generation of synthetic realistic workflow instances.</li>
-        </ul>
-        <p>
-            The <a href="https://docs.wfcommons.org" target="_blank"><strong>Python package documentation</strong></a>
-            provides all necessary information on how to install and use the available tools.
-        </p>
-        <footer>
-        </footer>
-    </article>
-
-    <!-- Post -->
-    <!--    <article class="post">-->
-    <!--        <header>-->
-    <!--            <div class="title">-->
-    <!--                <h2><a href="single.html">The WfCommons Project</a></h2>-->
-    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-    <!--            </div>-->
-    <!--            <div class="meta">-->
-    <!--                <time class="published" datetime="2015-11-01">November 1, 2015</time>-->
-    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-    <!--            </div>-->
-    <!--        </header>-->
-    <!--        <p>-->
-    <!--            The WorkflowHub project is a community framework for enabling scientific workflow research and development-->
-    <!--            by providing foundational tools for analyzing workflow execution traces, and generating synthetic, yet-->
-    <!--            realistic, workflow traces that can be used to develop new techniques, algorithms and systems that can-->
-    <!--            overcome the challenges of efficient and robust execution of ever larger workflows on increasingly complex-->
-    <!--            distributed infrastructures. The figure below shows an overview of the workflow research life cycle process-->
-    <!--            that integrates the three axis of the WorkflowHub project:-->
-    <!--        </p>-->
-    <!--        <footer>-->
-    <!--            <ul class="actions">-->
-    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-    <!--            </ul>-->
-    <!--            <ul class="stats">-->
-    <!--                <li><a href="#">General</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-    <!--            </ul>-->
-    <!--        </footer>-->
-    <!--    </article>-->
-
-    <!--    &lt;!&ndash; Post &ndash;&gt;-->
-    <!--    <article class="post">-->
-    <!--        <header>-->
-    <!--            <div class="title">-->
-    <!--                <h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>-->
-    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-    <!--            </div>-->
-    <!--            <div class="meta">-->
-    <!--                <time class="published" datetime="2015-10-25">October 25, 2015</time>-->
-    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-    <!--            </div>-->
-    <!--        </header>-->
-    <!--        <a href="single.html" class="image featured"><img src="images/pic02.jpg" alt=""/></a>-->
-    <!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
-    <!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
-    <!--            ullam corper.</p>-->
-    <!--        <footer>-->
-    <!--            <ul class="actions">-->
-    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-    <!--            </ul>-->
-    <!--            <ul class="stats">-->
-    <!--                <li><a href="#">General</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-    <!--            </ul>-->
-    <!--        </footer>-->
-    <!--    </article>-->
-
-    <!--    &lt;!&ndash; Post &ndash;&gt;-->
-    <!--    <article class="post">-->
-    <!--        <header>-->
-    <!--            <div class="title">-->
-    <!--                <h2><a href="single.html">Euismod et accumsan</a></h2>-->
-    <!--                <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>-->
-    <!--            </div>-->
-    <!--            <div class="meta">-->
-    <!--                <time class="published" datetime="2015-10-22">October 22, 2015</time>-->
-    <!--                <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt=""/></a>-->
-    <!--            </div>-->
-    <!--        </header>-->
-    <!--        <a href="single.html" class="image featured"><img src="images/pic03.jpg" alt=""/></a>-->
-    <!--        <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod-->
-    <!--            placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue-->
-    <!--            ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,-->
-    <!--            ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis-->
-    <!--            suscipit. Quisque vestibulum rhoncus ligula.</p>-->
-    <!--        <footer>-->
-    <!--            <ul class="actions">-->
-    <!--                <li><a href="single.html" class="button large">Continue Reading</a></li>-->
-    <!--            </ul>-->
-    <!--            <ul class="stats">-->
-    <!--                <li><a href="#">General</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-heart">28</a></li>-->
-    <!--                <li><a href="#" class="icon solid fa-comment">128</a></li>-->
-    <!--            </ul>-->
-    <!--        </footer>-->
-    <!--    </article>-->
-
-    <!-- Post -->
-    <!--
-        <article class="post">
-            <header>
-                <div class="title">
-                    <h2><a href="#">Elements</a></h2>
-                    <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-                </div>
-                <div class="meta">
-                    <time class="published" datetime="2015-10-18">October 18, 2015</time>
-                    <a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-                </div>
-            </header>
-
-            <section>
-                <h3>Text</h3>
-                <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-                <hr />
-                <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                <hr />
-                <h2>Heading Level 2</h2>
-                <h3>Heading Level 3</h3>
-                <h4>Heading Level 4</h4>
-                <hr />
-                <h4>Blockquote</h4>
-                <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                <h4>Preformatted</h4>
-                <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-            </section>
-
-            <section>
-                <h3>Lists</h3>
-                <div class="row">
-                    <div class="col-6 col-12-medium">
-                        <h4>Unordered</h4>
-                        <ul>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Sagittis adipiscing.</li>
-                            <li>Felis enim feugiat.</li>
-                        </ul>
-                        <h4>Alternate</h4>
-                        <ul class="alt">
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Sagittis adipiscing.</li>
-                            <li>Felis enim feugiat.</li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-12-medium">
-                        <h4>Ordered</h4>
-                        <ol>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Etiam vel felis viverra.</li>
-                            <li>Felis enim feugiat.</li>
-                            <li>Dolor pulvinar etiam.</li>
-                            <li>Etiam vel felis lorem.</li>
-                            <li>Felis enim et feugiat.</li>
-                        </ol>
-                        <h4>Icons</h4>
-                        <ul class="icons">
-                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                            <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <h3>Actions</h3>
-                <div class="row">
-                    <div class="col-6 col-12-medium">
-                        <ul class="actions">
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                        </ul>
-                        <ul class="actions small">
-                            <li><a href="#" class="button small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                        </ul>
-                        <ul class="actions stacked">
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                        </ul>
-                        <ul class="actions stacked">
-                            <li><a href="#" class="button small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-12-medium">
-                        <ul class="actions stacked">
-                            <li><a href="#" class="button fit">Default</a></li>
-                            <li><a href="#" class="button fit">Default</a></li>
-                        </ul>
-                        <ul class="actions stacked">
-                            <li><a href="#" class="button small fit">Small</a></li>
-                            <li><a href="#" class="button small fit">Small</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section>
-                <h3>Table</h3>
-                <h4>Default</h4>
-                <div class="table-wrapper">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Item One</td>
-                                <td>Ante turpis integer aliquet porttitor.</td>
-                                <td>29.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Two</td>
-                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                <td>19.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Three</td>
-                                <td> Morbi faucibus arcu accumsan lorem.</td>
-                                <td>29.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Four</td>
-                                <td>Vitae integer tempus condimentum.</td>
-                                <td>19.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Five</td>
-                                <td>Ante turpis integer aliquet porttitor.</td>
-                                <td>29.99</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="2"></td>
-                                <td>100.00</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-
-                <h4>Alternate</h4>
-                <div class="table-wrapper">
-                    <table class="alt">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Description</th>
-                                <th>Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Item One</td>
-                                <td>Ante turpis integer aliquet porttitor.</td>
-                                <td>29.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Two</td>
-                                <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                <td>19.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Three</td>
-                                <td> Morbi faucibus arcu accumsan lorem.</td>
-                                <td>29.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Four</td>
-                                <td>Vitae integer tempus condimentum.</td>
-                                <td>19.99</td>
-                            </tr>
-                            <tr>
-                                <td>Item Five</td>
-                                <td>Ante turpis integer aliquet porttitor.</td>
-                                <td>29.99</td>
-                            </tr>
-                        </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="2"></td>
-                                <td>100.00</td>
-                            </tr>
-                        </tfoot>
-                    </table>
-                </div>
-            </section>
-
-            <section>
-                <h3>Buttons</h3>
-                <ul class="actions">
-                    <li><a href="#" class="button large">Large</a></li>
-                    <li><a href="#" class="button">Default</a></li>
-                    <li><a href="#" class="button small">Small</a></li>
-                </ul>
-                <ul class="actions fit">
-                    <li><a href="#" class="button fit">Fit</a></li>
-                    <li><a href="#" class="button fit">Fit</a></li>
-                    <li><a href="#" class="button fit">Fit</a></li>
-                </ul>
-                <ul class="actions fit small">
-                    <li><a href="#" class="button fit small">Fit + Small</a></li>
-                    <li><a href="#" class="button fit small">Fit + Small</a></li>
-                    <li><a href="#" class="button fit small">Fit + Small</a></li>
-                </ul>
-                <ul class="actions">
-                    <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                    <li><a href="#" class="button icon solid fa-upload">Icon</a></li>
-                    <li><a href="#" class="button icon solid fa-save">Icon</a></li>
-                </ul>
-                <ul class="actions">
-                    <li><span class="button disabled">Disabled</span></li>
-                    <li><span class="button disabled icon solid fa-download">Disabled</span></li>
-                </ul>
-            </section>
-
-            <section>
-                <h3>Form</h3>
-                <form method="post" action="#">
-                    <div class="row gtr-uniform">
-                        <div class="col-6 col-12-xsmall">
-                            <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-                        </div>
-                        <div class="col-6 col-12-xsmall">
-                            <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                        </div>
-                        <div class="col-12">
-                            <select name="demo-category" id="demo-category">
-                                <option value="">- Category -</option>
-                                <option value="1">Manufacturing</option>
-                                <option value="1">Shipping</option>
-                                <option value="1">Administration</option>
-                                <option value="1">Human Resources</option>
-                            </select>
-                        </div>
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                            <label for="demo-priority-low">Low</label>
-                        </div>
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-normal" name="demo-priority">
-                            <label for="demo-priority-normal">Normal</label>
-                        </div>
-                        <div class="col-4 col-12-small">
-                            <input type="radio" id="demo-priority-high" name="demo-priority">
-                            <label for="demo-priority-high">High</label>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <input type="checkbox" id="demo-copy" name="demo-copy">
-                            <label for="demo-copy">Email me a copy</label>
-                        </div>
-                        <div class="col-6 col-12-small">
-                            <input type="checkbox" id="demo-human" name="demo-human" checked>
-                            <label for="demo-human">Not a robot</label>
-                        </div>
-                        <div class="col-12">
-                            <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <ul class="actions">
-                                <li><input type="submit" value="Send Message" /></li>
-                                <li><input type="reset" value="Reset" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
-            <section>
-                <h3>Image</h3>
-                <h4>Fit</h4>
-                <div class="box alt">
-                    <div class="row gtr-uniform">
-                        <div class="col-12"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-                    </div>
-                </div>
-                <h4>Left &amp; Right</h4>
-                <p><span class="image left"><img src="images/pic07.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                <p><span class="image right"><img src="images/pic04.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-            </section>
-
-        </article>
-    -->
-
-    <!-- Pagination -->
-    <!--    <ul class="actions pagination">-->
-    <!--        <li><a href="" class="disabled button large previous">Previous Page</a></li>-->
-    <!--        <li><a href="#" class="button large next">Next Page</a></li>-->
-    <!--    </ul>-->
-
-</div>
+</main>
