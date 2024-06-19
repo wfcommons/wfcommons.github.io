@@ -138,9 +138,11 @@ permalink: /
             <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="pricing-block-content">
                     <h3><a href="https://rafaelsilva.com/files/publications/casanova2023wide.pdf"
-                            target="_blank">WfCommons: Data Collection and Runtime Experiments using Multiple Workflow Systems</a></h3>
+                            target="_blank">WfCommons: Data Collection and Runtime Experiments using Multiple Workflow
+                            Systems</a></h3>
                     <p class="pricing-sub">H. Casanova, K. Berney, S. Chastel, R. Ferreira da Silva
-                        da Silva <br />he 1st IEEE International Workshop on Workflows in Distributed Environments (WiDE 2023), 2023
+                        da Silva <br />he 1st IEEE International Workshop on Workflows in Distributed Environments (WiDE
+                        2023), 2023
                     </p>
                 </div>
             </div>
@@ -171,7 +173,8 @@ permalink: /
             <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="pricing-block-content">
                     <h3><a href="https://rafaelsilva.com/files/publications/coleman2021escience.pdf"
-                            target="_blank">WfChef: Automated Generation of Accurate Scientific Workflow Generators</a></h3>
+                            target="_blank">WfChef: Automated Generation of Accurate Scientific Workflow Generators</a>
+                    </h3>
                     <p class="pricing-sub">T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, and R. Ferreira
                         da Silva <br />17th IEEE Conference on eScience, 2021
                     </p>
@@ -181,4 +184,109 @@ permalink: /
         </div>
     </section>
 
+    {% assign total_usage = site.data.usages | size %}
+    <section id="usage" class="scrollto clearfix">
+        <div class="row clearfix">
+
+            <div class="col-3">
+
+                <div class="section-heading">
+                    <h3>THEY USE WFCOMMONS</h3>
+                    <h2 class="section-title">Research Outcomes Enabled by WfCommons</h2>
+                    <p class="section-subtitle">
+                        WfCommons has enabled research in <strong>{{ total_usage }} research articles.</strong> These
+                        articles include research outcomes produced by our own team as well as other researchers from
+                        the workflows community.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-2-3">
+                <canvas id="usageChart" style="max-height: 23em; max-width: 100%"></canvas>
+            </div>
+            <p>&nbsp;</p>
+            
+            {% assign usages = site.data.usages | sort: "year" | reverse %}
+            {% for n in usages %}
+            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div>
+                    <p class="pricing-sub">
+                        {{n.authors}}, <strong><a href="{{n.link}}" target="_blank">{{n.title}}</a></strong>, 
+                    {{n.book}}, {{n.year}}
+                </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+
+    <script type="text/javascript">
+        let entries = [
+            {% assign usages = site.data.usages | sort: "year" %}
+        {% for n in usages %}
+        {
+            year: "{{n.year}}",
+            type: "{{n.type}}"
+        },
+        {% endfor %}
+        ]
+        let data = {
+            labels: [],
+            datasets: [],
+        }
+        let datasetTypes = ["Journal", "Conference", "Workshop", "PhD Thesis", "Report"];
+        let datasetColors = ["#A7226E", "#EC2049", "#F7DB4F", "#F26B38", "#2F9599", "#547980", "#FF8C94"];
+        for (let i = 0; i < datasetTypes.length; i++) {
+            data.datasets.push({
+                label: datasetTypes[i],
+                backgroundColor: datasetColors[i],
+                data: []
+            });
+        }
+        for (let i = 0; i < entries.length; i++) {
+            if (!data.labels.includes(entries[i].year)) {
+                data.labels.push(entries[i].year);
+                for (let j = 0; j < datasetTypes.length; j++) {
+                    data.datasets[j].data.push(0);
+                }
+            }
+            let index = datasetTypes.indexOf(entries[i].type);
+            data.datasets[index].data[data.labels.indexOf(entries[i].year)]++;
+        }
+        console.log(data);
+        let ctx = document.getElementById("usageChart");
+        new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: {
+                scales: {
+                    y: {
+                        stacked: true,
+                        title: {
+                            display: true,
+                            text: '# Usages in Research Outcomes'
+                        }
+                    },
+                    x: {
+                        stacked: true,
+                        title: {
+                            display: true,
+                            text: 'Years'
+                        }
+                    }
+                },
+                chartArea: {
+                    backgroundColor: "#FEF8F8"
+                },
+                tooltips: {
+                    position: 'nearest',
+                    mode: 'point',
+                    intersect: 'false'
+                }
+            }
+        });
+    </script>
 </main>

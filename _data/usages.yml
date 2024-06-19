@@ -1,71 +1,189 @@
-publications:
-    - title: DAG Scheduling with Communication Delays Based on Graph Convolutional Neural Network
-      authors: Z. Zhang, Q-S. Hua, X. Zhang, H. Jin, X. Liao
-      type: Journal
-      book: Wireless Communications and Mobile Computing
-      year: 2022
-      link: https://doi.org/10.1155/2022/9013361
+- title: Cooperative Multi-fitness Evolutionary Algorithm for Scientific Workflows Scheduling
+  authors: P. Barredo, J. Puente 
+  type: Conference
+  book: International Work-Conference on the Interplay Between Natural and Artificial Computation
+  year: 2024
+  link: https://link.springer.com/chapter/10.1007/978-3-031-61137-7_17
 
-    - title: On the Feasibility of Simulation-driven Portfolio Scheduling for Cyberinfrastructure Runtime Systems
-      authors: H. Casanova, Y.C. Wong, L. Pottier, R. Ferreira da Silva
-      type: Workshop
-      book: Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP)
-      year: 2022
-      link: https://henricasanova.github.io/files/papers/casanova_jsspp2022.pdf
+- title: Cost-efficient Workflow as a Service using Containers
+  authors: K. Karmakar, A. Tarafdar, R. K. Das, S. Khatua
+  type: Journal
+  book: Journal of Grid Computing
+  year: 2024
+  link: https://link.springer.com/article/10.1007/s10723-024-09745-7
 
-    - title: Local search driven periodic scheduling for workflows with random task runtime in clouds
-      authors: L. Xing, M. Zhang, H. Li, M. Gong, J. Yang, K. Wang
-      type: Journal
-      book: Computers & Industrial Engineering
-      year: 2022
-      link: https://doi.org/10.1016/j.cie.2022.108033
+- title: A bidirectional workflow scheduling approach with feedback mechanism in clouds
+  authors: M. Fan, L. Ye, X. Zuo, X. Zhao
+  type: Journal
+  book: Expert Systems with Applications
+  year: 2024
+  link: https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0957417424003592
 
-    - title: "FaaSFlow: enable efficient workflow execution for function-as-a-service"
-      authors: Z. Li, Y. Liu, L. Guo, Q. Chen, J. Cheng, W. Zheng, M. Guo
-      type: Conference
-      book: 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems
-      year: 2022
-      link: https://doi.org/10.1145/3503222.3507717
-    
-    - title: "MCDS: AI Augmented Workflow Scheduling in Mobile Edge Cloud Computing Systems"
-      authors: S. Tuli, G. Casale, N. R. Jennings
-      type: Journal
-      book: IEEE Transactions on Parallel and Distributed Systems
-      year: 2021
-      link: https://doi.org/10.1109/TPDS.2021.3135907
+- title: Benchmarking DAG Scheduling Algorithms on Scientific Workflow Instances
+  authors: O. Sukhoroslov M. Gorokhovskii 
+  type: Conference
+  book: Russian Supercomputing Days
+  year: 2023
+  link: https://link.springer.com/chapter/10.1007/978-3-031-49435-2_1
 
-    - title: "Optimal task scheduling for partially heterogeneous systems"
-      authors: M. Orr, O. Sinnen
-      type: Journal
-      book: Parallel Computing
-      year: 2021
-      link: https://doi.org/10.1016/j.parco.2021.102815
+- title: "WfCommons: Data Collection and Runtime Experiments using Multiple Workflow Systems"
+  authors: H. Casanova, K. Berney, S. Chastel, R. Ferreira da Silva
+  type: Workshop
+  book: 2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)
+  year: 2023
+  link: https://rafaelsilva.com/files/publications/casanova2023wide.pdf
 
-    - title: "Checkpointing Workflows à la Young/Daly Is Not Good Enough"
-      authors: A. Benoit, L. Perotin, Y. Robert, H. Sun
-      type: Journal
-      book: ""
-      year: 2021
-      link: https://hal.inria.fr/hal-03264047/
+- title: Precise makespan optimization via hybrid genetic algorithm for scientific workflow scheduling problem
+  authors: P. Barredo, J. Puente 
+  type: Journal
+  book: Natural Computing
+  year: 2023
+  link: https://link.springer.com/article/10.1007/s11047-023-09950-5
 
-    - title: "DDBWS: a dynamic deadline and budget-aware workflow scheduling algorithm in workflow-as-a-service environments"
-      authors: E. Saeedizade, M. Ashtiani
-      type: Journal
-      book: The Journal of Supercomputing
-      year: 2021
-      link: https://doi.org/10.1007/s11227-021-03858-6
+- title: Scheduling of Workflows with Task Resource Requirements in Cluster Environments
+  authors: O. Sukhoroslov
+  type: Conference
+  book: International Conference on Parallel Computing Technologies
+  year: 2023
+  link: https://link.springer.com/chapter/10.1007/978-3-031-41673-6_14
 
-    - title: "Evaluating Energy-Aware Scheduling Algorithms for I/O-Intensive Scientific Workflows"
-      authors: T. Coleman, H. Casanova, T. Gwartney, R. Ferreira da Silva
-      type: Conference
-      book: International Conference on Computational Science (ICCS)
-      year: 2021
-      link: https://doi.org/10.1007/978-3-030-77961-0_16 
-   
-    - title: "An Approach for Automating the Calibration of Simulations of Parallel and Distributed Computing Systems"
-      authors: W. Koch
-      type: PhD Thesis
-      year: 2021
-      book: PhD Thesis
-      link: https://www.proquest.com/docview/2570179299?pq-origsite=gscholar&fromopenview=true
-      
+- title: A Communication Contention-Cognizant Scheduling Approach for Workflow Execution Across Public and Private Clouds
+  authors: Q. Zhang, Q. Wu, M. Zhou, J. Wen, S. Yao
+  type: Journal
+  book: IEEE Transactions on Automation Science and Engineering
+  year: 2023
+  link: https://doi.org/10.1109/TASE.2023.3336807
+
+- title: Scheduling Workflows with Limited Budget to Cloud Server and Serverless Resources
+  authors: J. Zhang, X. Li, L. Chen, R. Ruiz
+  type: Journal
+  book: IEEE Transactions on Services Computing
+  year: 2023
+  link: https://ieeexplore.ieee.org/abstract/document/10333994?casa_token=rkb9uzcF04kAAAAA:rElAaxufmBN-2niwt4rzFeAXHu05ADHA5huaOYbikEN7u1RWOe14620aRjPkLUTTgJb6iFtkDadO
+
+- title: Scientific Workflow Generation and Benchmarking
+  authors: T. Coleman
+  type: PhD Thesis
+  book: PhD Thesis
+  year: 2023
+  link: https://www.proquest.com/docview/2917122209?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses
+
+- title: Automated generation of scientific workflow generators with WfChef
+  authors: T. Coleman, H. Casanova, R. Ferreira da Silva
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2023
+  link: https://rafaelsilva.com/files/publications/coleman2023fgcs.pdf
+
+- title: Look-ahead workflow scheduling with width changing trend in clouds
+  authors: L. Yang, L. Ye, Y. Xia, Y. Zhan
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2023
+  link: https://www.sciencedirect.com/science/article/pii/S0167739X22002965
+
+- title: "Reusability Challenges of Scientific Workflows: A Case Study for Galaxy"
+  authors: K. Alam, B. Roy, A. Serebrenik
+  type: Report
+  book: arXiv preprint
+  year: 2023
+  link: https://arxiv.org/abs/2309.07291
+
+- title: Robust Makespan Optimization via Genetic Algorithms on the Scientific Workflow Scheduling Problem
+  authors: P. Barredo, J. Puente
+  type: Conference
+  book: International Work-Conference on the Interplay Between Natural and Artificial Computation
+  year: 2022
+  link: https://link.springer.com/chapter/10.1007/978-3-031-06527-9_8
+
+- title: "GCNScheduler: Scheduling Distributed Computing Applications using Graph Convolutional Networks"
+  authors: M. Kiamari, B. Krishnamachari
+  type: Workshop
+  book: "GNNet '22: Proceedings of the 1st International Workshop on Graph Neural Networking"
+  year: 2022
+  link: https://dl.acm.org/doi/abs/10.1145/3565473.3569185
+
+- title: "Wfcommons: A framework for enabling scientific workflow research and development"
+  authors: T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, R. Ferreira da Silva
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2022
+  link: https://rafaelsilva.com/files/publications/coleman2021fgcs.pdf
+
+- title: DAG Scheduling with Communication Delays Based on Graph Convolutional Neural Network
+  authors: Z. Zhang, Q-S. Hua, X. Zhang, H. Jin, X. Liao
+  type: Journal
+  book: Wireless Communications and Mobile Computing
+  year: 2022
+  link: https://doi.org/10.1155/2022/9013361
+
+- title: On the Feasibility of Simulation-driven Portfolio Scheduling for Cyberinfrastructure Runtime Systems
+  authors: H. Casanova, Y. C. Wong, L. Pottier, R. Ferreira da Silva
+  type: Workshop
+  book: Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP)
+  year: 2022
+  link: https://henricasanova.github.io/files/papers/casanova_jsspp2022.pdf
+
+- title: Local search driven periodic scheduling for workflows with random task runtime in clouds
+  authors: L. Xing, M. Zhang, H. Li, M. Gong, J. Yang, K. Wang
+  type: Journal
+  book: Computers & Industrial Engineering
+  year: 2022
+  link: https://doi.org/10.1016/j.cie.2022.108033
+
+- title: "FaaSFlow: enable efficient workflow execution for function-as-a-service"
+  authors: Z. Li, Y. Liu, L. Guo, Q. Chen, J. Cheng, W. Zheng, M. Guo
+  type: Conference
+  book: 27th ACM International Conference on Architectural Support for Programming Languages and Operating Systems
+  year: 2022
+  link: https://doi.org/10.1145/3503222.3507717
+
+- title: "Checkpointing Workflows à la Young/Daly Is Not Good Enough"
+  authors: A. Benoit, L. Perotin, Y. Robert, H. Sun
+  type: Journal
+  book: "ACM Transactions on Parallel Computing"
+  year: 2022
+  link: https://hal.inria.fr/hal-03264047/
+
+- title: "WfChef: Automated Generation of Accurate Scientific Workflow Generators"
+  authors: T. Coleman, H. Casanova, R. Ferreira da Silva
+  type: Conference
+  book: 2021 IEEE 17th International Conference on eScience (eScience)
+  year: 2021
+  link: https://arxiv.org/pdf/2105.00129
+
+- title: "MCDS: AI Augmented Workflow Scheduling in Mobile Edge Cloud Computing Systems"
+  authors: S. Tuli, G. Casale, N. R. Jennings
+  type: Journal
+  book: IEEE Transactions on Parallel and Distributed Systems
+  year: 2021
+  link: https://doi.org/10.1109/TPDS.2021.3135907
+
+- title: "Optimal task scheduling for partially heterogeneous systems"
+  authors: M. Orr, O. Sinnen
+  type: Journal
+  book: Parallel Computing
+  year: 2021
+  link: https://doi.org/10.1016/j.parco.2021.102815
+
+- title: "DDBWS: a dynamic deadline and budget-aware workflow scheduling algorithm in workflow-as-a-service environments"
+  authors: E. Saeedizade, M. Ashtiani
+  type: Journal
+  book: The Journal of Supercomputing
+  year: 2021
+  link: https://doi.org/10.1007/s11227-021-03858-6
+
+- title: "Evaluating Energy-Aware Scheduling Algorithms for I/O-Intensive Scientific Workflows"
+  authors: T. Coleman, H. Casanova, T. Gwartney, R. Ferreira da Silva
+  type: Conference
+  book: International Conference on Computational Science (ICCS)
+  year: 2021
+  link: https://doi.org/10.1007/978-3-030-77961-0_16 
+
+- title: "An Approach for Automating the Calibration of Simulations of Parallel and Distributed Computing Systems"
+  authors: W. Koch
+  type: PhD Thesis
+  year: 2021
+  book: PhD Thesis
+  link: https://www.proquest.com/docview/2570179299?pq-origsite=gscholar&fromopenview=true
+  
