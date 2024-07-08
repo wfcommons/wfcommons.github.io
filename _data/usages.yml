@@ -1,3 +1,10 @@
+- title: An exploration of online-simulation-driven portfolio scheduling in workflow management systems
+  authors: J. McDonald, J. Dobbs, Y.C. Wong, R. Ferreira da Silva, H. Casanova
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2024
+  link: https://doi.org/10.1016/j.future.2024.07.005
+  
 - title: Cooperative Multi-fitness Evolutionary Algorithm for Scientific Workflows Scheduling
   authors: P. Barredo, J. Puente 
   type: Conference
