@@ -1,3 +1,10 @@
+- title: Mapping Large Memory-constrained Workflows onto Heterogeneous Platforms
+  authors: S Kulagina, H Meyerhenke, A Benoit
+  type: Conference
+  book: 53rd International Conference on Parallel Processing (ICPP '24)
+  year: 2024
+  link: https://arxiv.org/abs/2407.09077
+
 - title: An exploration of online-simulation-driven portfolio scheduling in workflow management systems
   authors: J. McDonald, J. Dobbs, Y.C. Wong, R. Ferreira da Silva, H. Casanova
   type: Journal
