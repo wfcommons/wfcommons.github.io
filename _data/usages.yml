@@ -1,3 +1,10 @@
+- title: Learning-Augmented Energy-Aware List Scheduling for Precedence-Constrained Tasks
+  authors: Y. Su, V. Anand, J. Yu, J. Tan, A. Wierman
+  type: Journal
+  book: ACM Transactions on Modeling and Performance Evaluation of Computing Systems
+  year: 2024
+  link: https://doi.org/10.1145/3680278
+
 - title: Dispersed Computing in Dynamic Environments
   authors: J. R. Coleman
   type: PhD Thesis
