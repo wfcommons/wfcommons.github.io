@@ -106,7 +106,7 @@ permalink: /
     <!--End of Introduction-->
 
     <section id="publications" class="secondary-color text-center scrollto clearfix ">
-        <div class="row clearfix">
+        <div class="row clearfix" style="display: flex; flex-wrap: wrap;">
 
             <div class="section-heading">
                 <h3>RESEARCH PUBLICATIONS</h3>
@@ -135,52 +135,19 @@ permalink: /
 }</pre>
             </div>
 
-            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="pricing-block-content">
-                    <h3><a href="https://rafaelsilva.com/files/publications/casanova2023wide.pdf"
-                            target="_blank">WfCommons: Data Collection and Runtime Experiments using Multiple Workflow
-                            Systems</a></h3>
-                    <p class="pricing-sub">H. Casanova, K. Berney, S. Chastel, R. Ferreira da Silva
-                        da Silva <br />he 1st IEEE International Workshop on Workflows in Distributed Environments (WiDE
-                        2023), 2023
+            {% if site.data.publications.size > 0 %}
+            {% for n in site.data.publications %}
+            <div class="pricing-block wow fadeInUp" data-wow-delay="0.4s">
+                <div class="pricing-block-content"
+                    style="padding: 0; display: flex; max-width: 380px; min-width: 380px; margin: 1em 1em">
+                    <p><a href="{{ n.url }}" target="_blank">{{ n.title }}</a>,
+                        {{ n.authors }}, {{ n.description }},
+                        doi: <a href="http://dx.doi.org/{{ n.doi }}" target="_blank">{{ n.doi }}</a>
                     </p>
                 </div>
             </div>
-
-            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="pricing-block-content">
-                    <h3><a href="https://rafaelsilva.com/files/publications/coleman2022pmbs.pdf"
-                            target="_blank">WfBench: Automated Generation of Scientific Workflow Benchmarks</a></h3>
-                    <p class="pricing-sub">T. Coleman, H. Casanova, K. Maheshwari, L. Pottier, S. R. Wilkinson, J.
-                        Wozniak, F. Suter, M. Shankar, R. Ferreira da Silva <br />2022 IEEE/ACM International Workshop
-                        on Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems
-                        (PMBS), 2022
-                    </p>
-                </div>
-            </div>
-
-            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="pricing-block-content">
-                    <h3><a href="https://rafaelsilva.com/files/publications/coleman2021fgcs.pdf"
-                            target="_blank">WfCommons: A Framework for Enabling Scientific Workflow Research and
-                            Development</a></h3>
-                    <p class="pricing-sub">T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, and R. Ferreira
-                        da Silva <br />Future Generation Computer Systems, vol. 128, 2022
-                    </p>
-                </div>
-            </div>
-
-            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="pricing-block-content">
-                    <h3><a href="https://rafaelsilva.com/files/publications/coleman2021escience.pdf"
-                            target="_blank">WfChef: Automated Generation of Accurate Scientific Workflow Generators</a>
-                    </h3>
-                    <p class="pricing-sub">T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, and R. Ferreira
-                        da Silva <br />17th IEEE Conference on eScience, 2021
-                    </p>
-                </div>
-            </div>
-
+            {% endfor %}
+            {% endif %}
         </div>
     </section>
 
@@ -207,17 +174,19 @@ permalink: /
             </div>
             <p>&nbsp;</p>
             
+            <div class="row clearfix" style="display: flex; flex-wrap: wrap; margin-top: 0; padding-top: 0;">
             {% assign usages = site.data.usages | sort: "year" | reverse %}
             {% for n in usages %}
-            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s" style="display: flex;">
                 <div>
-                    <p class="pricing-sub">
+                    <p class="pricing-sub" style="margin: 0">
                         {{n.authors}}, <strong><a href="{{n.link}}" target="_blank">{{n.title}}</a></strong>, 
                     {{n.book}}, {{n.year}}
                 </p>
                 </div>
             </div>
             {% endfor %}
+            </div>
         </div>
     </section>
 
