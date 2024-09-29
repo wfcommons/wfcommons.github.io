@@ -1,0 +1,23 @@
+- title: "WfCommons: Data Collection and Runtime Experiments using Multiple Workflow Systems"
+  authors: H. Casanova, K. Berney, S. Chastel, R. Ferreira da Silva 
+  description: 1st IEEE International Workshop on Workflows in Distributed Environments (WiDE 2023), 2023
+  doi: 10.1109/COMPSAC57700.2023.00290
+  url: https://rafaelsilva.com/files/publications/casanova2023wide.pdf
+
+- title: "WfBench: Automated Generation of Scientific Workflow Benchmarks"
+  authors: T. Coleman, H. Casanova, K. Maheshwari, L. Pottier, S. R. Wilkinson, J. Wozniak, F. Suter, M. Shankar, R. Ferreira da Silva
+  description: 2022 IEEE/ACM International Workshop on Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems (PMBS), 2022
+  doi: 10.1109/PMBS56514.2022.00014
+  url: https://rafaelsilva.com/files/publications/coleman2022pmbs.pdf
+
+- title: "WfCommons: A Framework for Enabling Scientific Workflow Research and Development"
+  authors: T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, and R. Ferreira da Silva
+  description: Future Generation Computer Systems, vol. 128, 2022
+  doi: 10.1016/j.future.2021.09.043
+  url: https://rafaelsilva.com/files/publications/coleman2021fgcs.pdf
+
+- title: "WfChef: Automated Generation of Accurate Scientific Workflow Generators"
+  authors: T. Coleman, H. Casanova, L. Pottier, M. Kaushik, E. Deelman, and R. Ferreira da Silva
+  description: 17th IEEE Conference on eScience, 2021
+  doi: 10.1016/j.future.2023.04.031
+  url: https://rafaelsilva.com/files/publications/coleman2021escience.pdf
