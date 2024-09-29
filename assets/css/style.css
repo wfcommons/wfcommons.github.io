@@ -1461,8 +1461,9 @@ blockquote {
     margin:0 0 25px 0;
 }
 
-.pricing-sub a {
-    color: rgb(233, 137, 4) !important
+.pricing-sub a, .pub {
+    color: rgb(197, 96, 2) !important;
+    font-weight: normal;
 }
 
 /*Price*/
