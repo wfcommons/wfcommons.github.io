@@ -1,3 +1,17 @@
+- title: Reproducible Performance Analysis & Engineering of Large-Scale IT Infrastructures
+  authors: L. F. D. Versluis
+  type: PhD Thesis
+  Book: PhD Thesis
+  year: 2024
+  link: https://doi.org/10.5463/thesis.756
+
+- title: Cloud-native Workflow Scheduling using a Hybrid Priority Rule, Dynamic Resource Allocation, and Dynamic Task Partition
+  authors: J. Shin, D. Arroyo, A. Tantawi, C. Wang, A. Youssef, R. Nagi
+  type: Conference
+  book: "ACM Symposium on Cloud Computing (SoCC'24)"
+  year: 2024
+  link: https://dl.acm.org/doi/abs/10.1145/3698038.3698551
+
 - title: A Budget-Constrained Workflow Scheduling Approach With Priority Adjustment and Critical Task Optimizing in Clouds 
   authors: M. Fan, X. Zhao, X. Zuo, L. Ye
   type: Journal
