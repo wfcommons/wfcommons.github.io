@@ -1,3 +1,10 @@
+- title: Enabling HPC Scientific Workflows for Serverless
+  authors: A. A. Da Silva, R. P. Hong Enriquez, G. Rattihalli, V. Thurimella, R. Ferreira da Silva, D. Milojicic
+  type: Workshop
+  Book: 6th International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)
+  year: 2024
+  link: 
+
 - title: Reproducible Performance Analysis & Engineering of Large-Scale IT Infrastructures
   authors: L. F. D. Versluis
   type: PhD Thesis
