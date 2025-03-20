@@ -5,6 +5,13 @@
   year: 2025
   link: https://arxiv.org/pdf/2503.13072
 
+- title: "Bi-objective Workflow Scheduling in the Cloud: What is the Real State-of-the-Art?"
+  authors: Y. Semenov, O. Sukhoroslov
+  type: Conference
+  Book: Supercomputing, RuSCDays 2024
+  year: 2025
+  link: https://doi.org/10.1007/978-3-031-78462-0_2
+
 - title: Scientific workflow scheduling algorithms in cloud environments: a comprehensive taxonomy, survey, and future directions
   authors: E. Saeedizade, M. Ashtiani
   type: Journal
