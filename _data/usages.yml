@@ -1,16 +1,37 @@
+- title: "Optimizing Resource Estimation for Scientific Workflows in HPC Environments: A Layered-Bucket Heuristic Approach"
+  authors: L. C. R. Alvarenga, Y. Frota, D. de Oliveira, R. Coutinho
+  type: Journal
+  Book: Concurrency and Computation: Practice and Experience
+  year: 2025
+  link: https://doi.org/10.1002/cpe.8381
+
+- title: "Static task mapping for heterogeneous systems based on series-parallel decompositions"
+  authors: M. Wilhelm, T. Pionteck
+  type: Workshop
+  book: 34th Heterogeneity in Computing Workshop (HCW 2025)
+  year: 2025
+  link: https://arxiv.org/pdf/2502.19745
+
 - title: "WOW: Workflow-Aware Data Movement and Task Scheduling for Dynamic Scientific Workflows"
   authors: F. Lehmann, J. Bader, F. Tschirpke, N. de Mecquenem, A. Loser, S. Becker, K. E. Lewinska, L. Thamsen, U. Leser
   type: Conference
-  Book: 25th IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
+  book: 25th IEEE International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
   year: 2025
   link: https://arxiv.org/pdf/2503.13072
 
 - title: "Bi-objective Workflow Scheduling in the Cloud: What is the Real State-of-the-Art?"
   authors: Y. Semenov, O. Sukhoroslov
   type: Conference
-  Book: Supercomputing, RuSCDays 2024
+  book: Supercomputing, RuSCDays 2024
   year: 2025
   link: https://doi.org/10.1007/978-3-031-78462-0_2
+
+- title: "DGCQN: a RL and GCN combined method for DAG scheduling in edge computing"
+  authors: B. Qin, Q. Lei, X. Wang
+  type: Journal
+  book: The Journal of Supercomputing
+  year: 2024
+  link: https://doi.org/10.1007/s11227-024-06140-7
 
 - title: "Scientific workflow scheduling algorithms in cloud environments: a comprehensive taxonomy, survey, and future directions"
   authors: E. Saeedizade, M. Ashtiani
