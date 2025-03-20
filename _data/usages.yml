@@ -5,6 +5,13 @@
   year: 2025
   link: https://arxiv.org/pdf/2503.13072
 
+- title: Scientific workflow scheduling algorithms in cloud environments: a comprehensive taxonomy, survey, and future directions
+  authors: E. Saeedizade, M. Ashtiani
+  type: Journal
+  Book: Journal of Scheduling
+  year: 2024
+  link: https://doi.org/10.1007/s10951-024-00820-1
+
 - title: Enabling HPC Scientific Workflows for Serverless
   authors: A. A. Da Silva, R. P. Hong Enriquez, G. Rattihalli, V. Thurimella, R. Ferreira da Silva, D. Milojicic
   type: Workshop
