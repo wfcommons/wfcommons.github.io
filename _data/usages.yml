@@ -24,7 +24,7 @@
   type: Workshop
   Book: 6th International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)
   year: 2024
-  link: 10.1109/SCW63240.2024.00022
+  link: https://doi.org/10.1109/SCW63240.2024.00022
 
 - title: Reproducible Performance Analysis & Engineering of Large-Scale IT Infrastructures
   authors: L. F. D. Versluis
