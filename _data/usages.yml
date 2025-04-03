@@ -1,3 +1,10 @@
+- title: "Memory-aware Adaptive Scheduling of Scientific Workflows on Heterogeneous Architectures"
+  authors: S. Kulagina, A. Benoit, H. Meyerhenke
+  type: Conference
+  Book: 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
+  year: 2025
+  link: https://arxiv.org/pdf/2503.22365
+
 - title: "Optimizing Resource Estimation for Scientific Workflows in HPC Environments: A Layered-Bucket Heuristic Approach"
   authors: L. C. R. Alvarenga, Y. Frota, D. de Oliveira, R. Coutinho
   type: Journal
