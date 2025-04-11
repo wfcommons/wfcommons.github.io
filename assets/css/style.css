@@ -234,6 +234,21 @@ section {
     width: 100%;
 }
 
+.col-1-alt {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.col-1-alt svg {
+    display: block;
+    width: 90%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
 .col-2 {
     width: 50%;
 }
@@ -783,8 +798,8 @@ h6 {
 }
 
 #banner-content.row {
-    padding-top: 170px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 #banner h1 {
