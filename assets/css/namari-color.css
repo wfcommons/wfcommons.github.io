@@ -124,7 +124,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner-content {
-    background: url("/images/attempt.svg") no-repeat right bottom;
+    /* background: url("/images/wfcommons-concept-clickable.svg") no-repeat right bottom;*/
     background-size: 60%;
     background-position: right;
 }
