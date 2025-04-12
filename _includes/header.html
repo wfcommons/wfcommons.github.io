@@ -3,91 +3,47 @@
         <div class="row clearfix">
             <div class="col-1">
 
-                <!--Logo-->
                 <div id="logo">
-
-                    <!--Logo that is shown on the banner-->
-                    <img src="images/wfcommons-horizontal.png" id="banner-logo" alt="Landing Page" />
-                    <!--End of Banner Logo-->
-
-                    <!--The Logo that is shown on the sticky Navigation Bar-->
-                    <img src="images/wfcommons-horizontal.png" id="navigation-logo" alt="Landing Page" />
-                    <!--End of Navigation Logo-->
-
+                    <img width="100%" src="images/wfcommons-horizontal.png" id="banner-logo" alt="Landing Page" />
+                    <img width="100%" src="images/wfcommons-horizontal.png" id="navigation-logo" alt="Landing Page" />
                 </div>
-                <!--End of Logo-->
 
-                <!--Main Navigation-->
                 <nav id="nav-main">
                     <ul>
-                        <li>
-                            <a href="#banner">Home</a>
-                        </li>
-                        <li>
-                            <a href="#framework">Framework</a>
-                        </li>
-                        <li>
-                            <a href="#publications">Publications</a>
-                        </li>
-                        <li>
-                            <a href="#usage">They Use WfCommons</a>
-                        </li>
+                        <li> <a href="#banner">Home</a> </li>
+                        <li> <a href="#datasets">Datasets</a> </li>
+                        <li> <a href="#framework">Framework</a> </li>
+                        <li> <a href="#publications">Publications</a> </li>
+                        <li> <a href="#usage">They Use WfCommons</a> </li>
                         <li>
                             <a href="https://github.com/wfcommons/wfcommons" target="_blank" style="font-size: 1.25em"
                                 title="GitHub">
                                 <i class="fa fa-github"></i>
                             </a>
                         </li>
-                        <!-- <li>
-                            <a href="#testimonials">Testimonials</a>
-                        </li>
-                        <li>
-                            <a href="#clients">Clients</a>
-                        </li>
-                        <li>
-                            <a href="#pricing">Pricing</a>
-                        </li> -->
                     </ul>
                 </nav>
-                <!--End of Main Navigation-->
 
                 <div id="nav-trigger"><span></span></div>
                 <nav id="nav-mobile"></nav>
-
             </div>
         </div>
-    </div><!--End of Header-->
+    </div>
 
-    <!--Banner Content-->
-    <div id="banner-content" class="row clearfix">
-
-        <div class="col-38">
-
+    <div id="banner-content" class="row clearfix" style="padding-top: 10em;">
+        <div class="col-3">
             <div class="section-heading">
-                <h1 style="text-transform: uppercase; font-size: 2.4em; line-height: 1.2em;">Empowering scientific
-                    workflow research</h1>
-                <h2>Harnessing open-source methods for scientific workflow analysis, recipe derivation, synthetic
-                    instance generation, and benchmark specification</h2>
+                <h1 style="text-transform: uppercase; font-size: 2em; line-height: 1.2em;">Fostering <strong>scientific
+                        workflow research and development</strong></h1>
+                <h2>WfCommons provides open-source datasets of scientific workflow instances and tools for exploring
+                    these datasets, for generating synthetic workflow instance, and for producing executable workflow
+                    benchmarks. The end-goal is to enable the development of new techniques and runtime systems for the
+                    efficient execution of scientific workflows on complex distributed infrastructures.</h2>
             </div>
-
-	    <a href="https://docs.wfcommons.org" target="_blank" class="button">DOCUMENTATION</a>&nbsp;&nbsp;
-	    <a href="https://github.com/wfcommons/wfinstances" target="_blank" class="button"><span style="color: #999">WF</span>INSTANCES</a>&nbsp;&nbsp;
-            <div>
-                <a href="https://badge.fury.io/py/wfcommons" target="_blank">
-                    <img src="https://badge.fury.io/py/wfcommons.svg" />
-                </a>&nbsp;&nbsp;
-                <a href="https://pepy.tech/project/wfcommons" target="_blank">
-                    <img
-                        src="https://static.pepy.tech/personalized-badge/wfcommons?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" />
-                </a>&nbsp;&nbsp;
-                <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank"
-                    style="border-bottom: 0">
-                    <img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg" />
-                </a>
-            </div>
-
         </div>
+        <div class="col-2-3">
+            {% include wfcommons-concept-clickable.svg %}
+        </div>
+    </div>
 
-    </div><!--End of Row-->
 </header>
-
