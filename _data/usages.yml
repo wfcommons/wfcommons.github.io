@@ -1,3 +1,10 @@
+- title: "Electricity Cost Minimization for Multi-Workflow Allocation in Geo-Distributed Data Centers"
+  authors: S. Wang, H. Zhang, T. Wu, Y. Zhang, W. E. Zhang, Q. Z. Sheng
+  type: Journal
+  book: IEEE Transactions on Services Computing
+  year: 2025
+  link: https://doi.org/10.1109/TSC.2025.3562325
+  
 - title: "Memory-aware Adaptive Scheduling of Scientific Workflows on Heterogeneous Architectures"
   authors: S. Kulagina, A. Benoit, H. Meyerhenke
   type: Conference
