@@ -1,3 +1,10 @@
+- title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms "
+  authors: J. Coleman, B. Krishnamachari
+  type: Conference
+  book: 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)
+  year: 2025
+  link: 
+
 - title: "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling"
   authors: J. Coleman, R. V. Agrawal, E. Hirani, B. Krishnamachari
   type: Workshop
