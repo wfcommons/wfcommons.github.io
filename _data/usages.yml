@@ -1,3 +1,10 @@
+- title: "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling"
+  authors: J. Coleman, R. V. Agrawal, E. Hirani, B. Krishnamachari
+  type: Workshop
+  book: 28th Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP 2025)
+  year: 2025
+  link: 
+
 - title: "Electricity Cost Minimization for Multi-Workflow Allocation in Geo-Distributed Data Centers"
   authors: S. Wang, H. Zhang, T. Wu, Y. Zhang, W. E. Zhang, Q. Z. Sheng
   type: Journal
