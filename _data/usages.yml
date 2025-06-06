@@ -1,3 +1,10 @@
+- title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
+  authors: M. Kroczek, J. Zawalska, K. Rycerz
+  type: Journal
+  book: 
+  year: 2025
+  link: https://arxiv.org/pdf/2506.01567
+
 - title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms "
   authors: J. Coleman, B. Krishnamachari
   type: Conference
