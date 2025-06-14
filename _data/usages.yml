@@ -1,3 +1,10 @@
+- title: "Energy-aware cooperative multi-fitness evolutionary algorithm for workflow scheduling in cloud computing"
+  authors: P. Barredo, J. Puente
+  type: Journal
+  book: Natural Computing
+  year: 2025
+  link: https://doi.org/10.1007/s11047-025-10023-y
+
 - title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
   authors: M. Kroczek, J. Zawalska, K. Rycerz
   type: Journal
