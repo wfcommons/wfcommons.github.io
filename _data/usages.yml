@@ -1,3 +1,17 @@
+- title: "Carbon-Aware Workflow Scheduling with Fixed Mapping and Deadline Constraint"
+  authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
+  type: 
+  book: 
+  year: 2025
+  link: https://arxiv.org/pdf/2507.08725
+
+- title: "Coping with Silent Errors for Workflows of Moldable Tasks"
+  authors: Q. Gao, L. Han, S. Hunold, Y. Robert, F. Vivien
+  type: 
+  book: 
+  year: 2025
+  link: https://inria.hal.science/hal-05116521/file/RR-9589.pdf#page=1.00&gsr=0
+
 - title: "Energy-aware cooperative multi-fitness evolutionary algorithm for workflow scheduling in cloud computing"
   authors: P. Barredo, J. Puente
   type: Journal
