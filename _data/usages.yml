@@ -1,3 +1,10 @@
+- title: "FlowForecaster: Automatically Inferring Detailed & Interpretable Workflow Scaling Models for Forecasts"
+  authors: H. Lee, J. Firoz, N. R. Tallent, L. Guo, M. Halappanavar
+  type: Conference
+  book: 2025 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+  year: 2025
+  link: https://doi.org/10.1109/IPDPS64566.2025.00045
+
 - title: "Carbon-Aware Workflow Scheduling with Fixed Mapping and Deadline Constraint"
   authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
   type: 
