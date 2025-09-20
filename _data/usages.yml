@@ -1,3 +1,10 @@
+- title: "Bundled for Success: A WfBench-Driven Assessment of Texera"
+  authors: M. Wang, S. Jahangiri, K. Maheshwari, C. Li
+  type: Workshop
+  book: "54th International Conference on Parallel Processing Companion (ICPP Companion '25)"
+  year: 2025
+  link: https://chenli.ics.uci.edu/files/2025-wisdom.pdf
+
 - title: "FlowForecaster: Automatically Inferring Detailed & Interpretable Workflow Scaling Models for Forecasts"
   authors: H. Lee, J. Firoz, N. R. Tallent, L. Guo, M. Halappanavar
   type: Conference
