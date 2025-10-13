@@ -1,3 +1,10 @@
+- title: "Determining Levels of Detail for Simulators of Parallel and Distributed Computing Systems via Automated Calibration"
+  authors: J. McDonald, Y.C. Wong, K. Mehta, F. Suter, R. Ferreira da Silva, L. Pottier, E. Deelman, H. Casanova
+  type: Workshop
+  book: "PMBS25: The 16th International Workshop on Performance Modeling, Benchmarking, and Simulation of High-Performance Computer Systems"
+  year: 2025
+  link: https://henricasanova.github.io/files/papers/mcdonald_pmbs2025.pdf
+
 - title: "Bundled for Success: A WfBench-Driven Assessment of Texera"
   authors: M. Wang, S. Jahangiri, K. Maheshwari, C. Li
   type: Workshop
