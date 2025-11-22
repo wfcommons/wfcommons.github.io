@@ -1,7 +1,14 @@
+- title: Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty
+  authors: J. Chamorro, G. Twigg-Ho, J. Coleman, T. Coleman, B. Krishnamachari, M. Khodabandehlou
+  type: Workshop
+  book: "Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+  year: 2025
+  link: https://dl.acm.org/doi/full/10.1145/3731599.3767581
+
 - title: "Determining Levels of Detail for Simulators of Parallel and Distributed Computing Systems via Automated Calibration"
   authors: J. McDonald, Y.C. Wong, K. Mehta, F. Suter, R. Ferreira da Silva, L. Pottier, E. Deelman, H. Casanova
   type: Workshop
-  book: "PMBS25: The 16th International Workshop on Performance Modeling, Benchmarking, and Simulation of High-Performance Computer Systems"
+  book: "Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
   year: 2025
   link: https://henricasanova.github.io/files/papers/mcdonald_pmbs2025.pdf
 
