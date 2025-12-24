@@ -1,49 +1,46 @@
-<header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
-    <div id="header" class="nav-collapse">
-        <div class="row clearfix">
-            <div class="col-1">
+<div class="container">
+    <div class="heroGrid">
+        <div>
+            <h1>Build, test, and compare workflow systems on realistic data</h1>
+            <p class="lead">
+                WfCommons is an open-source ecosystem of <strong>workflow execution instances</strong>,
+                <strong>synthetic workflow generators</strong>,
+                and <strong>benchmark specifications</strong>. It helps the community study scheduling, performance,
+                resilience, and
+                emerging AI-driven workflow automation on modern distributed and HPC platforms.
+            </p>
+            <a href="https://badge.fury.io/py/wfcommons" target="_blank"><img src="https://badge.fury.io/py/wfcommons.svg" /></a>&nbsp;
+            <a href="https://pepy.tech/project/wfcommons" target="_blank"><img src="https://static.pepy.tech/personalized-badge/wfcommons?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" /></a>&nbsp;
+            <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank" style="border-bottom: 0"><img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg" /></a>
 
-                <div id="logo">
-                    <img style="max-width: 200px;" src="images/wfcommons-horizontal.png" id="banner-logo" alt="Landing Page" />
-                    <img style="max-width: 200px;" src="images/wfcommons-horizontal.png" id="navigation-logo" alt="Landing Page" />
+
+            <div class="heroActions">
+                <a class="btn primary" href="#ecosystem">Ecosystem components</a>
+                <a class="btn" href="https://docs.wfcommons.org/en/latest/index.html" target="_blank"
+                    rel="noreferrer">Documentation</a>
+                <!-- <a class="btn" href="https://github.com/wfcommons/WfCommons/releases" target="_blank"
+                    rel="noreferrer">Latest release notes</a>
+                <a class="btn ghost" href="#cite">How to cite</a> -->
+            </div>
+
+            <div class="kpis" aria-label="Highlights">
+                <div class="kpi">
+                    <b>Real instances</b>
+                    <span>Workflow executions curated in a common JSON format (WfFormat).</span>
                 </div>
-
-                <nav id="nav-main">
-                    <ul>
-                        <li> <a href="#banner">Home</a> </li>
-                        <li> <a href="#datasets">Datasets</a> </li>
-                        <li> <a href="#framework">Framework</a> </li>
-                        <li> <a href="#publications">Publications</a> </li>
-                        <li> <a href="#usage">They Use WfCommons</a> </li>
-                        <li>
-                            <a href="https://github.com/wfcommons/wfcommons" target="_blank" style="font-size: 1.25em"
-                                title="GitHub">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <div id="nav-trigger"><span></span></div>
-                <nav id="nav-mobile"></nav>
+                <div class="kpi">
+                    <b>Synthetic realism</b>
+                    <span>Generate realistic workflows from real traces.</span>
+                </div>
+                <div class="kpi">
+                    <b>Benchmarks</b>
+                    <span>Produce executable specs for repeatable experiments and fair comparisons.</span>
+                </div>
             </div>
         </div>
-    </div>
 
-    <div id="banner-content" class="row clearfix" style="padding-top: 10em;">
-        <div class="col-3">
-            <div class="section-heading">
-                <h1 style="text-transform: uppercase; font-size: 2em; line-height: 1.2em;">Fostering <strong>scientific
-                        workflow research and development</strong></h1>
-                <h2>WfCommons provides open-source datasets of scientific workflow instances and tools for exploring
-                    these datasets, for generating synthetic workflow instance, and for producing executable workflow
-                    benchmarks. The end-goal is to enable the development of new techniques and runtime systems for the
-                    efficient execution of scientific workflows on complex distributed infrastructures.</h2>
-            </div>
-        </div>
-        <div class="col-2-3">
-            {% include wfcommons-concept-clickable.svg %}
-        </div>
+        <aside class="heroCard" aria-label="Quick start">
+            {% include wfcommons-concept-modern.svg %}
+        </aside>
     </div>
-
-</header>
+</div>

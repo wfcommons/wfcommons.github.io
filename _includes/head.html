@@ -1,29 +1,28 @@
+
 <title>{% if page.title %} {{ page.title }} - {% endif %}{{ site.title }}</title>
 
-<meta charset="UTF-8" />
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="WfCommons is an open-source ecosystem of workflow traces, generators, and benchmarks for HPC, AI, and agentic scientific workflows." />
+<meta name="theme-color" content="#0b1220" />
 
-<!-- stylesheets -->
-<link rel="stylesheet" href="assets/css/style.css" />
-<link rel="stylesheet" href="assets/css/namari-color.css" />
-<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-<link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" type="text/css" />
+<!-- Open Graph -->
+<meta property="og:title" content="WfCommons — Workflow Datasets & Benchmarks for HPC, AI, and Agentic Workflows" />
+<meta property="og:description" content="Open workflow instances, synthetic generators, and benchmark specs to accelerate research in workflow systems, scheduling, and AI-driven orchestration." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://wfcommons.org/" />
+<meta property="og:image" content="https://wfcommons.org/images/wfcommons-horizontal.png" />
 
-<!-- Prefetch DNS for faster page speed -->
-<link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="dns-prefetch" href="//google-analytics.com" />
-<link rel="dns-prefetch" href="//www.google-analytics.com" />
-<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com" />
-<link rel="dns-prefetch" href="//ajax.googleapis.com" />
-<link rel="dns-prefetch" href="//fonts.gstatic.com" />
-
-<!-- icons -->
+<!-- Favicon -->
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="/favicon.ico" type="image/x-icon" />
+
+<!-- Inter font (optional, safe fallback to system fonts) -->
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H9XWFPSWBD"></script>
@@ -34,3 +33,16 @@
 
     gtag('config', 'G-H9XWFPSWBD');
 </script>
+
+<!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"SoftwareApplication",
+    "name":"WfCommons",
+    "applicationCategory":"DeveloperApplication",
+    "operatingSystem":"Cross-platform",
+    "url":"https://wfcommons.org/",
+    "description":"Open-source ecosystem of scientific workflow instances, synthetic generators, and benchmark specifications to accelerate research in workflow systems, scheduling, and AI-driven orchestration."
+  }
+  </script>

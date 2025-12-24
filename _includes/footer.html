@@ -1,47 +1,33 @@
-<!--Footer-->
-<footer id="landing-footer" class="clearfix">
-    <div class="row clearfix">
-        <p id="copyright" class="col-2">&copy;2020&ndash;{{ site.time | date: '%Y' }} WfCommons.org<br />
-            <a href="mailto:support@wfcommons.org">support@wfcommons.org</a>
-        </p>
+<div class="container">
+    <div class="footerGrid">
+        <div>
+            <a class="brand" href="#top" aria-label="WfCommons Home">
+                <img src="images/wfcommons-logo-white.png" alt="WfCommons" />
+                <span>WfCommons</span>
+            </a>
+            <p class="small" style="margin-top:12px">
+                WfCommons is funded by the National Science Foundation (NSF) under grant number 2411154; and the Oak
+                Ridge Leadership Computing Facility at the Oak Ridge National Laboratory, supported by the Office of
+                Science of the U.S. Department of Energy (DOE) under Contract No. DE-AC05-00OR22725. Any opinions,
+                findings, and conclusions or recommendations expressed in this material are those of the author(s) and
+                do not necessarily reflect the views of NSF or DOE.
+            </p>
+            <div class="small">© <span id="year">2020&ndash;{{ site.time | date: '%Y' }}</span> WFCommons.</div>
+        </div>
 
-        <div style="float: right; margin-left: 1em; margin-top: 1em;">
-            <a href="https://www.sdsc.edu" target="_blank" style="border: 0">
-                <img src="https://www.sdsc.edu/_files/images/SDSC-logo.svg" style="height: 2.5em" alt="SDSC" />
-            </a>
-        </div>
-        <div style="float: right; margin-left: 1em; margin-top: 1em;">
-            <a href="https://www.olcf.ornl.gov/about-olcf/staff-sections/advanced-technologies/workflows-ecosystem-services/" target="_blank" style="border: 0">
-                <img src="/images/logo-ornl.png" style="height: 2.8em" alt="ORNL" />
-            </a>
-        </div>
-        <div style="float: right; margin-left: 1em; margin-top: 1em;">
+        <div class="footLinks">
+            <div class="small" style="font-weight:700; color:var(--text); margin-bottom:6px">Mainly developed by:</div>
             <a href="https://www.ics.hawaii.edu" target="_blank" style="border: 0">
-                <img src="/images/logo-uhm.png" style="height: 3em" alt="UHM" />
+                <img src="/images/logo-uhm.png" style="height: 2em; filter: brightness(0) invert(1);" alt="UHM" />
+            </a>
+            <a href="https://www.olcf.ornl.gov/about-olcf/staff-sections/advanced-technologies/workflows-ecosystem-services/"
+                target="_blank" style="border: 0">
+                <img src="/images/logo-ornl.png" style="height: 2em; filter: brightness(0) invert(1);" alt="ORNL" />
+            </a>
+            <a href="https://www.sdsc.edu" target="_blank" style="border: 0">
+                <img src="https://www.sdsc.edu/_files/images/SDSC-logo.svg" style="height: 1.8em; filter: brightness(0) invert(1);" alt="SDSC" />
             </a>
         </div>
-        <div style="float: right; width: 10em; text-align: right; margin-top: 1em;">Mainly developed by:</div>
-    </div>
-    <div class="row clearfix">
-        <p class="col-1">WfCommons is funded by the National Science Foundation (NSF) under grant number 2411154; and
-            the Oak Ridge Leadership Computing Facility at the Oak Ridge National Laboratory, supported by the Office of
-            Science of the U.S. Department of Energy (DOE) under Contract No. DE-AC05-00OR22725. Any opinions, findings,
-            and conclusions or recommendations expressed in this material are those of the author(s) and do not
-            necessarily reflect the views of NSF or DOE.</p>
-    </div>
-</footer>
-<!--End of Footer-->
 
-<!-- Include JavaScript resources -->
-<script src="/assets/js/jquery.1.8.3.min.js"></script>
-<script src="/assets/js/wow.min.js"></script>
-<script src="/assets/js/featherlight.min.js"></script>
-<script src="/assets/js/featherlight.gallery.min.js"></script>
-<script src="/assets/js/jquery.enllax.min.js"></script>
-<script src="/assets/js/jquery.scrollUp.min.js"></script>
-<script src="/assets/js/jquery.easing.min.js"></script>
-<script src="/assets/js/jquery.stickyNavbar.min.js"></script>
-<script src="/assets/js/jquery.waypoints.min.js"></script>
-<script src="/assets/js/images-loaded.min.js"></script>
-<script src="/assets/js/lightbox.min.js"></script>
-<script src="/assets/js/site.js"></script>
+    </div>
+</div>
