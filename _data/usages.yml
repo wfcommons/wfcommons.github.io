@@ -1,3 +1,10 @@
+- title: "2HD: Hybrid Dynamic Utility-Driven Dependency-Aware Task Scheduling in Heterogeneous Datacenters"
+  authors: R-G. Stan, F. Pop
+  type: Journal
+  book: "IEEE Access"
+  year: 2025
+  link: https://doi.org/10.1109/ACCESS.2025.3643945
+
 - title: Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty
   authors: J. Chamorro, G. Twigg-Ho, J. Coleman, T. Coleman, B. Krishnamachari, M. Khodabandehlou
   type: Workshop
