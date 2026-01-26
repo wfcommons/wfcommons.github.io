@@ -1,3 +1,10 @@
+- title: "DPA-TA2C: Dynamic Priority-Aware Workflow Scheduling Method with Transformer and A2C in Cloud Data Center"
+  authors: F. Jian, G. Shen, X. Lv, C. Guo, Y. Cui
+  type: Conference
+  book: 2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)
+  year: 2025
+  link: https://doi.org/10.1109/ICPADS67057.2025.11323224
+
 - title: "2HD: Hybrid Dynamic Utility-Driven Dependency-Aware Task Scheduling in Heterogeneous Datacenters"
   authors: R-G. Stan, F. Pop
   type: Journal
