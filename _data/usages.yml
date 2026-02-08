@@ -1,3 +1,10 @@
+- title: "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution"
+  authors: D. Li, Z. Cheng, G. K. Nicholls, Q. Kong
+  type: Report
+  book:
+  year: 2026
+  link: https://arxiv.org/abs/2602.02806
+
 - title: "DPA-TA2C: Dynamic Priority-Aware Workflow Scheduling Method with Transformer and A2C in Cloud Data Center"
   authors: F. Jian, G. Shen, X. Lv, C. Guo, Y. Cui
   type: Conference
