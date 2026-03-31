@@ -1,3 +1,24 @@
+- title: "Energy-aware Resource Allocation for Data AnalysisWorkflows in Heterogeneous Cluster Environments"
+  authors: S Mohammadi, L PourKarimi, P Thamm, S Khair Un Nisa, U Leser, K Reinert
+  type: Journal
+  book: SSRN
+  year: 2026
+  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6076629
+
+- title: "Two-Stage Genetic-Based Optimization for Resource Provisioning and Scheduling of Multiple Workflows on the Cloud Under Resource Constraints"
+  authors: F. Li, W.J. Tan, M. Seok, W. Cai
+  type: Journal
+  book: Mathematics
+  year: 2026
+  link: https://www.mdpi.com/2227-7390/14/2/213
+
+- title: "Performance and Energy Consumption Prediction of Scientific Workflows using Machine Learning"
+  authors: F. Barbosa, E. Damasceno, F. Queiroz, J.B. Guimaraes, D. Cordeiro, J.S. Araujo, M. Amaris
+  type: Conference
+  book: "CARLA 2026, Latin America High Performance Computing Conference"
+  year: 2026
+  link: https://carlaconference.org/
+
 - title: "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution"
   authors: D. Li, Z. Cheng, G. K. Nicholls, Q. Kong
   type: Report
