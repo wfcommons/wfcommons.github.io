@@ -1,3 +1,10 @@
+- title: "Comprehensive Plugin-Based Monitoring of Nexflow Workflow Executions"
+  authors: S. Kharma, T. Wies, F. Schintke
+  type: Poster
+  book: SCA/HPC Asia 2026
+  year: 2026
+  link: https://arxiv.org/pdf/2603.28783
+
 - title: "Energy-aware Resource Allocation for Data AnalysisWorkflows in Heterogeneous Cluster Environments"
   authors: S Mohammadi, L PourKarimi, P Thamm, S Khair Un Nisa, U Leser, K Reinert
   type: Journal
