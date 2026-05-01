@@ -1,3 +1,10 @@
+- title: "Barrier-Aware Task Scheduling for Bulk-Synchronous Parallel Architectures"
+  authors: T. Noack, A. Koch
+  type: Conference
+  book: "40th ACM International Conference on Supercomputing, ICS ’26"
+  year: 2026
+  link: https://www.esa.informatik.tu-darmstadt.de/assets/publications/materials/2026/2026_ICS_TN_AHK.pdf
+
 - title: "Comprehensive Plugin-Based Monitoring of Nexflow Workflow Executions"
   authors: S. Kharma, T. Wies, F. Schintke
   type: Poster
