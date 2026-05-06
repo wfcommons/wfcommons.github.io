@@ -1,3 +1,10 @@
+- title: "The Score-P performance tools ecosystem"
+  authors: C. Feld, A. Calotoiu, G. Corbin, M. Geimer, M.A Hermanns, M. Knespel, B. Mohr, J.A. Reuter, M. Sander, P. Saviankou, M. Schlütter, R. Schöne, S.S. Shende, A. Visser, B. Wesarg, W.R. Williams, F. Wolf, B.J.N. Wylie, M. Zarubin
+  type: Journal
+  book: Frontiers in High Performance Computing
+  year: 2026
+  link: https://www.frontiersin.org/journals/high-performance-computing/articles/10.3389/fhpcp.2025.1709051/full
+
 - title: "Barrier-Aware Task Scheduling for Bulk-Synchronous Parallel Architectures"
   authors: T. Noack, A. Koch
   type: Conference
