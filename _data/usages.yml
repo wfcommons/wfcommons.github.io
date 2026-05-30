@@ -1,3 +1,24 @@
+- title: "Enforcing Attestable Workflows across Untrusted Networks"
+  authors: H. Dang1, T. Nguyen
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.09297
+
+- title: "FATE: Future-State-Aware Scheduling for Heterogeneous LLM Workflows"
+  authors: Z. Huang, Y.-X. Hu, F. Wu, X.-Y. Li
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.07238
+
+- title: "Carbon-Aware Mapping and Scheduling for Deadline-Constrained Workflows"
+  authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.27652
+
 - title: "Blending Serverful and Serverless Cloud Resources for Cost-Effective Workflow Execution"
   authors: Q. Wu, Q. Zhou, M. Zhou, J. Feng, T. Guo, C. Chen
   type: Journal
