@@ -1,3 +1,10 @@
+- title: "Memetic Algorithm for the Scientific Workflow Scheduling Problem with a Disk-Network-Computation Model"
+  authors: P. González-García, M.R. Sierra, J. Puente, F.J. Gil-Gala
+  type: Conference
+  book: "Bioinspired Intelligent Systems: From Robotics and Computer Vision to Trustworthy Applications: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation"
+  year: 2026
+  link: https://books.google.com/books?id=DxbfEQAAQBAJ&newbks=0&printsec=frontcover&pg=PA216&dq=Memetic+Algorithm+for+the+Scientific+Workflow+Scheduling+Problem+with+a+Disk-Network-Computation+Model&hl=en&source=newbks_fb#v=onepage&q=Memetic%20Algorithm%20for%20the%20Scientific%20Workflow%20Scheduling%20Problem%20with%20a%20Disk-Network-Computation%20Model&f=false
+
 - title: "Enforcing Attestable Workflows across Untrusted Networks"
   authors: H. Dang1, T. Nguyen
   type: Report
