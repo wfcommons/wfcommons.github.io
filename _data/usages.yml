@@ -1,3 +1,10 @@
+- title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
+  authors: A.T. Ramrakhiani
+  type: PhD Thesis
+  book: MS Thesis
+  year: 2026
+  link: https://ir.library.oregonstate.edu/downloads/2b88qn82q
+
 - title: "Memetic Algorithm for the Scientific Workflow Scheduling Problem with a Disk-Network-Computation Model"
   authors: P. González-García, M.R. Sierra, J. Puente, F.J. Gil-Gala
   type: Conference
@@ -134,13 +141,13 @@
 - title: "Carbon-Aware Workflow Scheduling with Fixed Mapping and Deadline Constraint"
   authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
   type: Conference
-  book: 
+  book: "ICPP '25: Proceedings of the 54th International Conference on Parallel Processing"
   year: 2025
   link: https://arxiv.org/pdf/2507.08725
 
 - title: "Coping with Silent Errors for Workflows of Moldable Tasks"
   authors: Q. Gao, L. Han, S. Hunold, Y. Robert, F. Vivien
-  type: Conference
+  type: Report
   book: 
   year: 2025
   link: https://inria.hal.science/hal-05116521/file/RR-9589.pdf#page=1.00&gsr=0
@@ -154,24 +161,24 @@
 
 - title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
   authors: M. Kroczek, J. Zawalska, K. Rycerz
-  type: Journal
+  type: Report
   book: 
   year: 2025
   link: https://arxiv.org/pdf/2506.01567
 
-- title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms "
+- title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms"
   authors: J. Coleman, B. Krishnamachari
   type: Conference
   book: 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)
   year: 2025
-  link: 
+  link: https://doi.ieeecomputersociety.org/10.1109/IPDPS64566.2025.00014
 
 - title: "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling"
   authors: J. Coleman, R. V. Agrawal, E. Hirani, B. Krishnamachari
   type: Workshop
   book: 28th Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP 2025)
   year: 2025
-  link: 
+  link: https://doi.org/10.1007/978-3-032-10507-3_13
 
 - title: "Electricity Cost Minimization for Multi-Workflow Allocation in Geo-Distributed Data Centers"
   authors: S. Wang, H. Zhang, T. Wu, Y. Zhang, W. E. Zhang, Q. Z. Sheng
@@ -281,7 +288,7 @@
 - title: Mapping Large Memory-constrained Workflows onto Heterogeneous Platforms
   authors: S Kulagina, H Meyerhenke, A Benoit
   type: Conference
-  book: 53rd International Conference on Parallel Processing (ICPP '24)
+  book: "53rd International Conference on Parallel Processing (ICPP '24)"
   year: 2024
   link: https://arxiv.org/abs/2407.09077
 
