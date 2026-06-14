@@ -5,6 +5,69 @@
   year: 2026
   link: https://isoptera.lcsc.edu/~jamcdonald/portfolio/Jesse_McDonald_PHD_Dissertation.pdf
 
+- title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
+  authors: A.T. Ramrakhiani
+  type: PhD Thesis
+  book: MS Thesis
+  year: 2026
+  link: https://ir.library.oregonstate.edu/downloads/2b88qn82q
+
+- title: "Memetic Algorithm for the Scientific Workflow Scheduling Problem with a Disk-Network-Computation Model"
+  authors: P. González-García, M.R. Sierra, J. Puente, F.J. Gil-Gala
+  type: Conference
+  book: "Bioinspired Intelligent Systems: From Robotics and Computer Vision to Trustworthy Applications: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation"
+  year: 2026
+  link: https://books.google.com/books?id=DxbfEQAAQBAJ&newbks=0&printsec=frontcover&pg=PA216&dq=Memetic+Algorithm+for+the+Scientific+Workflow+Scheduling+Problem+with+a+Disk-Network-Computation+Model&hl=en&source=newbks_fb#v=onepage&q=Memetic%20Algorithm%20for%20the%20Scientific%20Workflow%20Scheduling%20Problem%20with%20a%20Disk-Network-Computation%20Model&f=false
+
+- title: "Enforcing Attestable Workflows across Untrusted Networks"
+  authors: H. Dang1, T. Nguyen
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.09297
+
+- title: "FATE: Future-State-Aware Scheduling for Heterogeneous LLM Workflows"
+  authors: Z. Huang, Y.-X. Hu, F. Wu, X.-Y. Li
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.07238
+
+- title: "Carbon-Aware Mapping and Scheduling for Deadline-Constrained Workflows"
+  authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2605.27652
+
+- title: "Blending Serverful and Serverless Cloud Resources for Cost-Effective Workflow Execution"
+  authors: Q. Wu, Q. Zhou, M. Zhou, J. Feng, T. Guo, C. Chen
+  type: Journal
+  book: IEEE Transactions on Automation Science and Engineering
+  year: 2026
+  link: https://doi.org/10.1109/TASE.2026.3692157
+
+- title: "A Cost-Aware Computation Offloading Strategy for Complex In-Vehicle Applications in Mobile Edge Computing"
+  authors: F. Meng, J. Zeng, W. Zhang, C. Chen
+  type: Journal
+  book: "Concurrency and Computation: Practice and Experience"
+  year: 2026
+  link: https://onlinelibrary.wiley.com/doi/10.1002/cpe.70492
+
+- title: "The Score-P performance tools ecosystem"
+  authors: C. Feld, A. Calotoiu, G. Corbin, M. Geimer, M.A Hermanns, M. Knespel, B. Mohr, J.A. Reuter, M. Sander, P. Saviankou, M. Schlütter, R. Schöne, S.S. Shende, A. Visser, B. Wesarg, W.R. Williams, F. Wolf, B.J.N. Wylie, M. Zarubin
+  type: Journal
+  book: Frontiers in High Performance Computing
+  year: 2026
+  link: https://www.frontiersin.org/journals/high-performance-computing/articles/10.3389/fhpcp.2025.1709051/full
+
+- title: "Barrier-Aware Task Scheduling for Bulk-Synchronous Parallel Architectures"
+  authors: T. Noack, A. Koch
+  type: Conference
+  book: "40th ACM International Conference on Supercomputing, ICS ’26"
+  year: 2026
+  link: https://www.esa.informatik.tu-darmstadt.de/assets/publications/materials/2026/2026_ICS_TN_AHK.pdf
+
 - title: "Comprehensive Plugin-Based Monitoring of Nexflow Workflow Executions"
   authors: S. Kharma, T. Wies, F. Schintke
   type: Poster
@@ -85,13 +148,13 @@
 - title: "Carbon-Aware Workflow Scheduling with Fixed Mapping and Deadline Constraint"
   authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
   type: Conference
-  book: 
+  book: "ICPP '25: Proceedings of the 54th International Conference on Parallel Processing"
   year: 2025
   link: https://arxiv.org/pdf/2507.08725
 
 - title: "Coping with Silent Errors for Workflows of Moldable Tasks"
   authors: Q. Gao, L. Han, S. Hunold, Y. Robert, F. Vivien
-  type: Conference
+  type: Report
   book: 
   year: 2025
   link: https://inria.hal.science/hal-05116521/file/RR-9589.pdf#page=1.00&gsr=0
@@ -105,24 +168,24 @@
 
 - title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
   authors: M. Kroczek, J. Zawalska, K. Rycerz
-  type: Journal
+  type: Report
   book: 
   year: 2025
   link: https://arxiv.org/pdf/2506.01567
 
-- title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms "
+- title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms"
   authors: J. Coleman, B. Krishnamachari
   type: Conference
   book: 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)
   year: 2025
-  link: 
+  link: https://doi.ieeecomputersociety.org/10.1109/IPDPS64566.2025.00014
 
 - title: "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling"
   authors: J. Coleman, R. V. Agrawal, E. Hirani, B. Krishnamachari
   type: Workshop
   book: 28th Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP 2025)
   year: 2025
-  link: 
+  link: https://doi.org/10.1007/978-3-032-10507-3_13
 
 - title: "Electricity Cost Minimization for Multi-Workflow Allocation in Geo-Distributed Data Centers"
   authors: S. Wang, H. Zhang, T. Wu, Y. Zhang, W. E. Zhang, Q. Z. Sheng
@@ -232,7 +295,7 @@
 - title: Mapping Large Memory-constrained Workflows onto Heterogeneous Platforms
   authors: S Kulagina, H Meyerhenke, A Benoit
   type: Conference
-  book: 53rd International Conference on Parallel Processing (ICPP '24)
+  book: "53rd International Conference on Parallel Processing (ICPP '24)"
   year: 2024
   link: https://arxiv.org/abs/2407.09077
 
