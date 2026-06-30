@@ -1,9 +1,16 @@
+- title: Integrating Multi-Agent Reinforcement Learning and XGBoost for Efficient Large-Scale Dynamic Workflow Scheduling in Cloud Environments
+  authors: F. Ding, S. Zhang, Y. Yuan
+  type: Journal
+  book: IEEE Transactions on Services Computing
+  year: 2026
+  link: https://doi.org/10.1109/TSC.2026.3707320
+
 - title: A Systematic and Automated Methodology for Calibrating Simulators of Parallel and Distributed Computing Systems
   authors: J. McDonald
   type: PhD Thesis
-  Book: PhD Thesis
+  book: PhD Thesis
   year: 2026
-  link: https://isoptera.lcsc.edu/~jamcdonald/portfolio/Jesse_McDonald_PHD_Dissertation.pdf
+  link: https://www.proquest.com/dissertations-theses/systematic-automated-methodology-calibrating/docview/3353982448/se-2?accountid=26379
 
 - title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
   authors: A.T. Ramrakhiani
