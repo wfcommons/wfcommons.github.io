@@ -1,3 +1,10 @@
+- title: Characterizing Dataflow for I/O-Aware Scheduling in HPC Workflows
+  authors: M. Tang, L. Guo, A. Kougkas, X-H. Sun, N.R. Tallent
+  type: Conference
+  book: 2026 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+  year: 2026
+  link: https://ieeexplore.ieee.org/document/11575333
+
 - title: Integrating Multi-Agent Reinforcement Learning and XGBoost for Efficient Large-Scale Dynamic Workflow Scheduling in Cloud Environments
   authors: F. Ding, S. Zhang, Y. Yuan
   type: Journal
