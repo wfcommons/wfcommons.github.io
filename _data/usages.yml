@@ -1,3 +1,10 @@
+- title: Optimizing data analytics workflow scheduling in cloud–fog computing with GNNs
+  authors: W. Chongdarakul, K. Yongcharoenchaiyasit, N. Aunsri, S. Arwatchananukul, P. Naronglerdrit
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2026
+  link: http://doi.org/10.1016/j.future.2026.108703
+
 - title: Characterizing Dataflow for I/O-Aware Scheduling in HPC Workflows
   authors: M. Tang, L. Guo, A. Kougkas, X-H. Sun, N.R. Tallent
   type: Conference
