@@ -1,0 +1,43 @@
+name: Update WfInstances data
+
+# Refresh _data/traces.yml from the WfCommons/WfInstances repository. When the
+# counts changed, the workflow commits the update, which triggers a GitHub
+# Pages rebuild with the fresh data. Runs on every push (site rebuild), daily,
+# and on demand.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-instances
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Regenerate _data/traces.yml from WfInstances
+        run: python3 scripts/update_instances.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- _data/traces.yml; then
+            echo "WfInstances data is up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/traces.yml
+          git commit -m "Update WfInstances data from wfcommons/WfInstances"
+          git push

@@ -2,32 +2,40 @@
     <div class="footerGrid">
         <div>
             <a class="brand" href="#top" aria-label="WfCommons Home">
-                <img src="images/wfcommons-logo-white.png" alt="WfCommons" />
-                <span>WfCommons</span>
+                <img src="/images/wfcommons-logo.png" alt="WfCommons" style="height: 2.4em;" />
             </a>
-            <p class="small" style="margin-top:12px">
+            <p class="small" style="margin-top:14px; max-width: 68ch;">
                 WfCommons is funded by the National Science Foundation (NSF) under grant number 2411154; and the Oak
                 Ridge Leadership Computing Facility at the Oak Ridge National Laboratory, supported by the Office of
                 Science of the U.S. Department of Energy (DOE) under Contract No. DE-AC05-00OR22725. Any opinions,
                 findings, and conclusions or recommendations expressed in this material are those of the author(s) and
                 do not necessarily reflect the views of NSF or DOE.
             </p>
-            <div class="small">© <span id="year">2020&ndash;{{ site.time | date: '%Y' }}</span> WFCommons.</div>
+            <div class="small" style="margin-top:10px">© 2020&ndash;{{ site.time | date: '%Y' }} WfCommons.
+                Contact: <a href="mailto:support@wfcommons.org">support@wfcommons.org</a></div>
         </div>
 
-        <div class="footLinks">
-            <div class="small" style="font-weight:700; color:var(--text); margin-bottom:6px">Mainly developed by:</div>
-            <a href="https://www.ics.hawaii.edu" target="_blank" style="border: 0">
-                <img src="/images/logo-uhm.png" style="height: 2em; filter: brightness(0) invert(1);" alt="UHM" />
-            </a>
-            <a href="https://www.olcf.ornl.gov/about-olcf/staff-sections/advanced-technologies/workflows-ecosystem-services/"
-                target="_blank" style="border: 0">
-                <img src="/images/logo-ornl.png" style="height: 2em; filter: brightness(0) invert(1);" alt="ORNL" />
-            </a>
-            <a href="https://www.sdsc.edu" target="_blank" style="border: 0">
-                <img src="https://www.sdsc.edu/_files/images/SDSC-logo.svg" style="height: 1.8em; filter: brightness(0) invert(1);" alt="SDSC" />
-            </a>
+        <div>
+            <div class="small" style="font-weight:700; color:var(--ink); margin-bottom:4px">Mainly developed by</div>
+            <div class="orgLogos">
+                <a href="https://www.ics.hawaii.edu" target="_blank" rel="noreferrer" aria-label="University of Hawaiʻi at Mānoa">
+                    <img src="/images/logo-uhm.png" alt="University of Hawaiʻi at Mānoa" />
+                </a>
+                <a href="https://www.olcf.ornl.gov/about-olcf/staff-sections/advanced-technologies/workflows-ecosystem-services/"
+                    target="_blank" rel="noreferrer" aria-label="Oak Ridge National Laboratory">
+                    <img src="/images/logo-ornl.png" alt="Oak Ridge National Laboratory" />
+                </a>
+                <a href="https://www.sdsc.edu" target="_blank" rel="noreferrer" aria-label="San Diego Supercomputer Center">
+                    <img src="/images/logo-sdsc.png" alt="San Diego Supercomputer Center" />
+                </a>
+            </div>
+            <div class="divider"></div>
+            <div class="footLinks">
+                <a href="https://docs.wfcommons.org/" target="_blank" rel="noreferrer">Documentation</a>
+                <a href="https://github.com/wfcommons/WfCommons" target="_blank" rel="noreferrer">WfCommons (Python package)</a>
+                <a href="https://github.com/wfcommons/WfInstances" target="_blank" rel="noreferrer">WfInstances (datasets)</a>
+                <a href="https://github.com/wfcommons/WfFormat" target="_blank" rel="noreferrer">WfFormat (JSON schema)</a>
+            </div>
         </div>
-
     </div>
 </div>

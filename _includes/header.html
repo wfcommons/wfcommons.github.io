@@ -1,46 +1,63 @@
+{% assign num_traces = 0 %}
+{% assign num_apps = 0 %}
+{% for trace in site.data.traces %}
+{% assign num_traces = num_traces | plus: trace.traces %}
+{% assign num_apps = num_apps | plus: trace.applications %}
+{% endfor %}
+{% assign total_usage = site.data.usages | size %}
+
 <div class="container">
     <div class="heroGrid">
         <div>
-            <h1>Build, test, and compare workflow systems on realistic data</h1>
+            <span class="eyebrow"><span class="dot"></span> Open-source · Community-driven</span>
+            <h1>Build, test, and compare workflow systems on <span class="gradText">realistic data</span></h1>
             <p class="lead">
                 WfCommons is an open-source ecosystem of <strong>workflow execution instances</strong>,
-                <strong>synthetic workflow generators</strong>,
-                and <strong>benchmark specifications</strong>. It helps the community study scheduling, performance,
-                resilience, and
-                emerging AI-driven workflow automation on modern distributed and HPC platforms.
+                <strong>synthetic workflow generators</strong>, and <strong>benchmark specifications</strong> —
+                powering research on scheduling, performance, resilience, and AI-driven workflow automation
+                across HPC and distributed platforms.
             </p>
-            <a href="https://badge.fury.io/py/wfcommons" target="_blank"><img src="https://badge.fury.io/py/wfcommons.svg" /></a>&nbsp;
-            <a href="https://pepy.tech/project/wfcommons" target="_blank"><img src="https://static.pepy.tech/personalized-badge/wfcommons?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" /></a>&nbsp;
-            <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank" style="border-bottom: 0"><img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg" /></a>
-
 
             <div class="heroActions">
-                <a class="btn primary" href="#ecosystem">Ecosystem components</a>
+                <a class="btn primary" href="#quickstart">Get started</a>
                 <a class="btn" href="https://docs.wfcommons.org/en/latest/index.html" target="_blank"
                     rel="noreferrer">Documentation</a>
-                <!-- <a class="btn" href="https://github.com/wfcommons/WfCommons/releases" target="_blank"
-                    rel="noreferrer">Latest release notes</a>
-                <a class="btn ghost" href="#cite">How to cite</a> -->
+                <a class="btn ghost" href="#ecosystem">Explore the ecosystem →</a>
             </div>
 
-            <div class="kpis" aria-label="Highlights">
-                <div class="kpi">
-                    <b>Real instances</b>
-                    <span>Workflow executions curated in a common JSON format (WfFormat).</span>
-                </div>
-                <div class="kpi">
-                    <b>Synthetic realism</b>
-                    <span>Generate realistic workflows from real traces.</span>
-                </div>
-                <div class="kpi">
-                    <b>Benchmarks</b>
-                    <span>Produce executable specs for repeatable experiments and fair comparisons.</span>
-                </div>
+            <div class="installBox" aria-label="Install command">
+                <span><span class="prompt">$</span> pip install wfcommons</span>
+                <button class="copyBtn" data-copy-text="pip install wfcommons">Copy</button>
+            </div>
+
+            <div class="badgeRow">
+                <a href="https://badge.fury.io/py/wfcommons" target="_blank" rel="noreferrer"><img src="https://badge.fury.io/py/wfcommons.svg" alt="PyPI version" /></a>
+                <a href="https://pepy.tech/project/wfcommons" target="_blank" rel="noreferrer"><img src="https://static.pepy.tech/personalized-badge/wfcommons?period=total&units=international_system&left_color=grey&right_color=yellow&left_text=Downloads" alt="Downloads" /></a>
+                <a href="https://github.com/wfcommons/wfcommons/blob/master/LICENSE" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/License-LGPL%20v3-blue.svg" alt="License: LGPL v3" /></a>
             </div>
         </div>
 
-        <aside class="heroCard" aria-label="Quick start">
+        <aside class="heroCard" aria-label="WfCommons concept diagram">
             {% include wfcommons-concept-modern.svg %}
         </aside>
+    </div>
+
+    <div class="statStrip" aria-label="Highlights">
+        <div class="stat">
+            <b>{{ num_traces }}+</b>
+            <span>Curated workflow execution instances in WfFormat</span>
+        </div>
+        <div class="stat">
+            <b>{{ num_apps }}+</b>
+            <span>Scientific applications across workflow systems</span>
+        </div>
+        <div class="stat">
+            <b>{{ total_usage }}</b>
+            <span>Research articles enabled by WfCommons</span>
+        </div>
+        <div class="stat">
+            <b>6</b>
+            <span>Interoperable tools — from schema to simulation</span>
+        </div>
     </div>
 </div>
