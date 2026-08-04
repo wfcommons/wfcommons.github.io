@@ -2,17 +2,19 @@ name: Update WfInstances data
 
 # Refresh _data/traces.yml from the WfCommons/WfInstances repository. When the
 # counts changed, the workflow commits the update, which triggers a GitHub
-# Pages rebuild with the fresh data. Runs on every push (site rebuild), daily,
+# Pages rebuild with the fresh data; otherwise it requests a Pages rebuild
+# directly, so the site is rebuilt weekly either way. Also runs on every push
 # and on demand.
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: update-instances
@@ -31,9 +33,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push if changed
+        id: commit
         run: |
           if git diff --quiet -- _data/traces.yml; then
             echo "WfInstances data is up to date."
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -41,3 +45,10 @@ jobs:
           git add _data/traces.yml
           git commit -m "Update WfInstances data from wfcommons/WfInstances"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Request Pages rebuild (data unchanged)
+        if: steps.commit.outputs.pushed == 'false' && github.event_name != 'push'
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
