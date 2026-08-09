@@ -1,3 +1,50 @@
+- title: "A Cost‐Aware Computation Offloading Strategy for Complex In‐Vehicle Applications in Mobile Edge Computing"
+  authors: F. Meng, J. Zeng, W. Zhang, C. Chen
+  type: Journal
+  book: Concurrency and Computation: Practice and Experience
+  year: 2026
+  link: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70492
+
+- title: "Augur: Pre-Execution Energy Prediction for Workflow Tasks in Heterogeneous Clusters"
+  authors: K. West, V. Bountris, P. Thamm, U. Leser, Y. Elkhatib, L. Thamsen
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/abs/2606.00348
+
+- title: "Primal—Dual Proximal Policy Optimization for Constrained Offloading and Scheduling of Multi-User Periodic DAG Tasks in MEC"
+  authors: Y. Liang, H. Qu, J. Zhao
+  type: Conference
+  book: 2026 11th International Conference on Computer and Communication Systems (ICCCS)
+  year: 2026
+  link: https://ieeexplore.ieee.org/abstract/document/11613426/
+
+- title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
+  authors: A.T. Ramrakhiani
+  type: PhD Thesis
+  book: MS Thesis
+  year: 2026
+  link: https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/wm117z48j
+
+- title: "Implementing Kubernetes support for the FaaSr project"
+  authors: J. Kammerer
+  type: PhD Thesis
+  book: BS Thesis
+  year: 2026
+  link: https://ir.library.oregonstate.edu/concern/honors_college_theses/g158bs913
+
+- title: "AI-Enhanced Hybrid Scheduling Framework for Scientific Workflows in Intelligent Cloud-Connected Devices"
+  authors: N. Raghu, A. Kumar D. B., G. S. Shetty, R. Bhat, P. Rajashree Nambiar
+  type: Report
+  year: 2026
+  link: https://www.igi-global.com/chapter/ai-enhanced-hybrid-scheduling-framework-for-scientific-workflows-in-intelligent-cloud-connected-devices/392280
+
+- title: "Multi-Scale Structural Descriptors for Governance-Relevant Patterns in Data Lineage Graphs"
+  authors: D. Hari
+  type: Journal
+  year: 2026
+  link: https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6741041
+
 - title: An Intelligent Controller of Online SMDP-Based DAG Scheduling in Mobile Edge Computing
   authors: J. Wang, Y. Gao, A. Lakhan 
   type: Conference
@@ -133,8 +180,8 @@
 
 - title: "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution"
   authors: D. Li, Z. Cheng, G. K. Nicholls, Q. Kong
-  type: Report
-  book:
+  type: Conference
+  book: Forty-third International Conference on Machine Learning
   year: 2026
   link: https://arxiv.org/abs/2602.02806
 
