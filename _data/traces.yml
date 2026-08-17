@@ -9,7 +9,7 @@
 - name: Nextflow Execution Instances
   website: https://github.com/wfcommons/WfInstances/tree/main/nextflow
   applications: 17
-  traces: 96
+  traces: 116
 
 - name: Snakemake Execution Instances
   website: https://github.com/wfcommons/WfInstances/tree/main/snakemake
