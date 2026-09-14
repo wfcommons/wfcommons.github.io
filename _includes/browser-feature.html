@@ -1,0 +1,52 @@
+{% assign browser_instances = 0 %}
+{% for trace in site.data.traces %}
+{% assign browser_instances = browser_instances | plus: trace.traces %}
+{% endfor %}
+{% assign browser_repos = site.data.traces | size %}
+<div class="browserFeature">
+    <div>
+        <span class="kicker">WfInstances Browser</span>
+        <h3>Search, visualize, and simulate all {{ browser_instances }} instances online</h3>
+        <p>
+            No cloning or setup required — the browser indexes every instance from the {{ browser_repos }}
+            repositories below, so you can find the right workflow before you download it.
+        </p>
+        <ul class="featureList">
+            <li>
+                <span class="iconChip teal" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg>
+                </span>
+                <span><b>Filter &amp; sort</b>By tasks, files, data size, and runtime</span>
+            </li>
+            <li>
+                <span class="iconChip indigo" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2.5"/><circle cx="19" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M7 7.5 10 15M17 7.5 14 15M7.5 6h9"/></svg>
+                </span>
+                <span><b>Visualize DAGs</b>Inspect task graphs and export them as SVG</span>
+            </li>
+            <li>
+                <span class="iconChip violet" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+                </span>
+                <span><b>Simulate</b>Run schedulers on a platform you define</span>
+            </li>
+            <li>
+                <span class="iconChip blue" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/></svg>
+                </span>
+                <span><b>Download</b>Grab selected instances in WfFormat</span>
+            </li>
+        </ul>
+        <a class="btn primary" href="https://wfinstances.ics.hawaii.edu/" target="_blank" rel="noreferrer">Open the WfInstances Browser →</a>
+    </div>
+
+    <a class="browserShot" href="https://wfinstances.ics.hawaii.edu/" target="_blank" rel="noreferrer"
+        aria-label="Open the WfInstances Browser">
+        <span class="chrome" aria-hidden="true">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <span class="url">wfinstances.ics.hawaii.edu</span>
+        </span>
+        <img src="/images/wfinstances-browser.png" width="2200" height="1240" loading="lazy"
+            alt="The WfInstances Browser: a searchable table of workflow instances with task counts, file counts, data sizes, and runtimes" />
+    </a>
+</div>
