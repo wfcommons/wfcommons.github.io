@@ -2,103 +2,62 @@
 layout: default
 title: WfInstances
 permalink: /instances
+hero: false
 ---
 
-<!-- Main -->
-<div id="main">
+{% assign num_traces = 0 %}
+{% for trace in site.data.traces %}
+{% assign num_traces = num_traces | plus: trace.traces %}
+{% endfor %}
 
-    {% assign num_traces = 0 %}
-    {% assign num_apps = 0 %}
-    {% for trace in site.data.traces %}
-    {% assign num_traces = num_traces | plus: trace.traces %}
-    {% assign num_apps = num_apps | plus: trace.applications %}
-    {% endfor %}
-
-    <article class="post">
-        <header>
-            <div class="title">
-                <h2><img src="/images/wfcommons-green-leaf.png" alt=""/> WfInstances</h2>
-                <p>Workflow Execution Instances</p>
+<section id="instances">
+    <div class="container">
+        <div class="sectionHead">
+            <div>
+                <span class="kicker">WfInstances</span>
+                <h1>{{ num_traces }} open workflow execution instances</h1>
+                <p>
+                    Workflow instances are widely used to profile and characterize workflow executions, and to build
+                    distributions of workflow execution behaviors, which are used to evaluate methods and techniques in
+                    simulation or in real conditions.
+                </p>
+                <p>
+                    WfInstances collects and curates open access production workflow executions from various scientific
+                    applications, shared in the common <a href="https://github.com/wfcommons/WfFormat" target="_blank"
+                    rel="noreferrer">WfFormat</a> instance format. The
+                    <a href="https://docs.wfcommons.org" target="_blank" rel="noreferrer">WfCommons Python package</a>
+                    provides tools for analyzing instances, which can be used to develop workflow recipes for
+                    <a href="https://docs.wfcommons.org/en/latest/generating_workflows.html" target="_blank"
+                    rel="noreferrer">WfGen</a>.
+                </p>
             </div>
-            <div class="meta">
-                <div style="line-height: 1.5em">
-                    <span style="font-size: 2.5em" class="wftraces">{{ num_traces }}</span>
-                    <p style="color: #666; line-height: 1.3em; margin-top: 0">workflow execution <strong>instances</strong>
-                    </p>
-                </div>
-            </div>
-        </header>
-        <p>
-            Workflow instances are widely used to profile and characterize workflow executions, and to build distributions
-            of workflow execution behaviors, which are used to evaluate methods and techniques in simulation or in real
-            conditions.
-        </p>
-        <p>
-            <strong class="wftraces">WfInstances</strong> provides the collection and curation of open access
-            production workflow executions from various scientific applications shared in a common instance format. The
-            <strong><a href="https://docs.wfcommons.org" target="_blank">WfCommons Python package</a></strong> provides
-            a set of tools for analyzing instances, which can be used to develop workflow recipes for the
-            <a href="/generator" class="wfgenerator">WfGen</a>.
-        </p>
-        <p>
-            In this page, we keep a list of open access workflow execution instance repositories that host instances compliant
-            with The <a href="/format" class="wfformat">WfFormat</a> for describing workflow
-            executions. We are constantly seeking for additional workflow execution instances for refining or developing
-            new workflow recipes for the WfCommons's <a href="/generator" class="wfgenerator">WfGen</a>.
-        </p>
-        <p>
-            Workflow execution instances are organized into sub-folders within the repositories. Each sub-folder represents
-            a workflow application, which itself contains sub-folders for workflow executions in different computing
-            platforms. For each workflow application, a <code>README.md</code> file provides detailed description of the
-            workflow
-            structure and pointers to relevant material.
-        </p>
-    </article>
-
-    <article class="post">
-        <header>
-            <div class="title">
-                <h3>Open Access Instances Repositories</h3>
-                <p>List of Workflow Execution Instances</p>
-            </div>
-        </header>
-        <div class="row">
-            {% for t in site.data.traces %}
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <a href="{{ t.website }}" class="trace" target="_blank">
-                    <div class="header">
-                        <h1>{{ t.name }}</h1>
-                    </div>
-                    <div class="content">
-                        <div class="row">
-                            <div class="col-4" style="padding: 1em; background-color: #777">
-                                <strong>{{ t.traces }}</strong>
-                                <br/>instances
-                            </div>
-                            <div class="col-4" style="padding: 1em; background-color: #48B54E">
-                                <strong>{{ t.applications }}</strong>
-                                <br/>applications
-                            </div>
-                            <div class="col-4" style="padding: 1em; background-color: #777">
-                                <strong>{{ t.platforms }}</strong>
-                                <br/>platforms
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer">
-                        {% if t.action %}
-                        <img src="{{ t.website }}/workflows/{{ t.action }}/badge.svg"/>
-                        {% endif %}
-                        &nbsp;
-                        {% if t.zenodo %}
-                        <img src="https://zenodo.org/badge/{{ t.zenodo }}.svg" alt="Zenodo"/>
-                        {% endif %}
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
         </div>
-        <p></p>
-    </article>
 
-</div>
+        {% include browser-feature.html %}
+    </div>
+</section>
+
+<section id="repositories" class="alt">
+    <div class="container">
+        <div class="sectionHead">
+            <div>
+                <span class="kicker">Repositories</span>
+                <h2>Open access instance repositories</h2>
+                <p>
+                    Instances are organized by workflow system. Each sub-folder is a workflow application containing
+                    executions on different computing platforms, with a <code>README.md</code> that describes the
+                    workflow structure and points to relevant material.
+                </p>
+            </div>
+            <a class="btn" href="https://github.com/wfcommons/WfInstances" target="_blank"
+                rel="noreferrer">WfInstances on GitHub →</a>
+        </div>
+
+        {% include instance-repos.html %}
+
+        <p class="small" style="margin: 28px 0 0;">
+            We are always looking for additional workflow execution instances to refine existing recipes or develop new
+            ones. Have instances to share? Contact <a href="mailto:support@wfcommons.org">support@wfcommons.org</a>.
+        </p>
+    </div>
+</section>

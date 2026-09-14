@@ -215,28 +215,18 @@ workflow.<span class="fn">write_json</span>(<span class="str">'blast-workflow-50
                 <h2>{{ num_traces }}+ open workflow execution instances</h2>
                 <p>
                     Production workflow executions collected from multiple workflow management systems,
-                    curated and shared in WfFormat — browse, filter, visualize, and download them online.
+                    curated and shared in WfFormat.
                 </p>
             </div>
-            <a class="btn primary" href="https://wfinstances.ics.hawaii.edu/" target="_blank"
-                rel="noreferrer">Open the WfInstances browser</a>
+            <a class="btn" href="/instances">About WfInstances →</a>
         </div>
 
-        <div class="grid3">
-            {% for trace in site.data.traces %}
-            <div class="card reveal">
-                <span class="iconChip teal" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/></svg>
-                </span>
-                <h3>{{ trace.name }}</h3>
-                <div class="miniStats">
-                    <div><b>{{ trace.traces }}</b><span>instances</span></div>
-                    <div><b>{{ trace.applications }}</b><span>applications</span></div>
-                </div>
-                <a class="more" href="{{ trace.website }}" target="_blank" rel="noreferrer">View collection →</a>
-            </div>
-            {% endfor %}
+        <div class="reveal">
+            {% include browser-feature.html %}
         </div>
+
+        <h3 style="margin: 0 0 16px; font-size: 18px; font-weight: 700;">Instance repositories</h3>
+        {% include instance-repos.html reveal=true %}
 
         <div class="divider" style="margin: 34px 0 26px;"></div>
 
@@ -418,22 +408,6 @@ workflow.<span class="fn">write_json</span>(<span class="str">'blast-workflow-50
 </script>
 
 <script>
-    // ---- Mobile menu ----
-    const burger = document.getElementById('burger');
-    const mobileMenu = document.getElementById('mobileMenu');
-    if (burger && mobileMenu) {
-        burger.addEventListener('click', () => {
-            const open = mobileMenu.classList.toggle('open');
-            burger.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        mobileMenu.querySelectorAll('a').forEach(a => {
-            a.addEventListener('click', () => {
-                mobileMenu.classList.remove('open');
-                burger.setAttribute('aria-expanded', 'false');
-            });
-        });
-    }
-
     // ---- Toast ----
     const toast = document.getElementById('toast');
     function showToast(msg) {

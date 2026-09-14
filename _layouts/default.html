@@ -12,9 +12,11 @@
         {% include nav.html %}
     </div>
     
+    {% unless page.hero == false %}
     <header class="hero" id="top">
         {% include header.html %}
     </header>
+    {% endunless %}
 
     <main id="main">
         {{ content }}
