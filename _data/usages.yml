@@ -1,3 +1,10 @@
+- title: "LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs"
+  authors: X. Heng
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/pdf/2609.23058
+
 - title: A Lightweight Green-Power-Aware Online Scheduling Heuristic for Dynamic IoT-Cloud Systems
   authors: X. Liu, Y. Dong, X. Zhang, R. Ma
   type: Conference
