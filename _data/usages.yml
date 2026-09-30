@@ -1,3 +1,10 @@
+- title: "Compact MILP model for scheduling multi-stage DAGs with homogeneous dependencies in the cloud"
+  authors: Y. D. Semenova, O. V. Sukhoroslov
+  type: Journal
+  book: Program Systems: Theory and Applications
+  year: 2026
+  link: https://psta.psiras.ru/2026/3_275-314
+
 - title: "LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs"
   authors: X. Heng
   type: Report
