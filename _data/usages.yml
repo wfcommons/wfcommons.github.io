@@ -1,3 +1,10 @@
+- title: "Schedule Repair for DAG Workflows under Link Disruptions"
+  authors: M. Khodabandehlou, J. Coleman, B. Krishnamachari, K. Chan
+  type: Workshop
+  book: 6th International Workshop on the Internet of Things for Adversarial Environments (IoTAE)
+  year: 2026
+  link: https://arxiv.org/abs/2609.34048
+
 - title: "Compact MILP model for scheduling multi-stage DAGs with homogeneous dependencies in the cloud"
   authors: Y. D. Semenova, O. V. Sukhoroslov
   type: Journal
