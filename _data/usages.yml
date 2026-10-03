@@ -1,3 +1,10 @@
+- title: Scheduling Latency-Sensitive Scientific Workflows on Cloud Servers and Serverless Containers
+  authors: J. Zhang, X. Li, L. Chen, Z. Cai, R. Ruiz, R. Buyya
+  type: Journal
+  book: IEEE Transactions on Services Computing
+  year: 2026
+  link: https://ieeexplore.ieee.org/abstract/document/11713350
+
 - title: "Schedule Repair for DAG Workflows under Link Disruptions"
   authors: M. Khodabandehlou, J. Coleman, B. Krishnamachari, K. Chan
   type: Workshop
