@@ -1,3 +1,10 @@
+- title: Beyond Trade-Offs: Mashing Serverful and Serverless Cloud Resources for Budget-Constrained Workflow Execution
+  authors: Q. Zhou, R. Sun, M. Zhou, Q. Wu
+  type: Conference
+  book: "2026 IEEE 22nd International Conference on Automation Science and Engineering"
+  year: 2026
+  link: https://doi.org/10.1109/CASE69030.2026.11704337
+
 - title: A Lightweight Green-Power-Aware Online Scheduling Heuristic for Dynamic IoT-Cloud Systems
   authors: X. Liu, Y. Dong, X. Zhang, R. Ma
   type: Conference
