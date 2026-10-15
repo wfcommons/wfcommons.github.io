@@ -1,3 +1,10 @@
+- title: "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study"
+  author: Y. Zhang
+  type: Report
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/pdf/2610.12542
+
 - title: "Beyond Trade-Offs: Mashing Serverful and Serverless Cloud Resources for Budget-Constrained Workflow Execution"
   authors: Q. Zhou, R. Sun, M. Zhou, Q. Wu
   type: Conference
