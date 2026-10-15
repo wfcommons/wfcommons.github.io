@@ -1,6 +1,6 @@
 - title: "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study"
   author: Y. Zhang
-  type: Report
+  type: Preprint
   book: arXiv
   year: 2026
   link: https://arxiv.org/pdf/2610.12542
@@ -35,7 +35,7 @@
 
 - title: "LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs"
   authors: X. Heng
-  type: Report
+  type: Preprint
   book: arXiv
   year: 2026
   link: https://arxiv.org/pdf/2609.23058
@@ -166,14 +166,14 @@
 
 - title: "Enforcing Attestable Workflows across Untrusted Networks"
   authors: H. Dang1, T. Nguyen
-  type: Report
+  type: Preprint
   book: arXiv
   year: 2026
   link: https://arxiv.org/abs/2605.09297
 
 - title: "FATE: Future-State-Aware Scheduling for Heterogeneous LLM Workflows"
   authors: Z. Huang, Y.-X. Hu, F. Wu, X.-Y. Li
-  type: Report
+  type: Preprint
   book: arXiv
   year: 2026
   link: https://arxiv.org/abs/2605.07238
