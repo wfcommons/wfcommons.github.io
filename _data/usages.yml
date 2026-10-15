@@ -70,15 +70,15 @@
 
 - title: "Augur: Pre-Execution Energy Prediction for Workflow Tasks in Heterogeneous Clusters"
   authors: K. West, V. Bountris, P. Thamm, U. Leser, Y. Elkhatib, L. Thamsen
-  type: Report
-  book: arXiv
+  type: Conference
+  book: 19th IEEE International Conference on Cloud Computing (CLOUD)
   year: 2026
-  link: https://arxiv.org/abs/2606.00348
+  link: https://doi.org/10.1109/CLOUD72782.2026.00073
 
 - title: "Primal—Dual Proximal Policy Optimization for Constrained Offloading and Scheduling of Multi-User Periodic DAG Tasks in MEC"
   authors: Y. Liang, H. Qu, J. Zhao
   type: Conference
-  book: 2026 11th International Conference on Computer and Communication Systems (ICCCS)
+  book: 11th International Conference on Computer and Communication Systems (ICCCS)
   year: 2026
   link: https://ieeexplore.ieee.org/abstract/document/11613426/
 
@@ -98,9 +98,9 @@
 
 - title: "AI-Enhanced Hybrid Scheduling Framework for Scientific Workflows in Intelligent Cloud-Connected Devices"
   authors: N. Raghu, A. Kumar D. B., G. S. Shetty, R. Bhat, P. Rajashree Nambiar
-  type: Report
+  type: Book Chapter
   year: 2026
-  link: https://www.igi-global.com/chapter/ai-enhanced-hybrid-scheduling-framework-for-scientific-workflows-in-intelligent-cloud-connected-devices/392280
+  link: https://doi.org/10.4018/979-8-3373-7503-8.ch001
 
 - title: "Multi-Scale Structural Descriptors for Governance-Relevant Patterns in Data Lineage Graphs"
   authors: D. Hari
@@ -180,10 +180,10 @@
 
 - title: "Carbon-Aware Mapping and Scheduling for Deadline-Constrained Workflows"
   authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
-  type: Report
-  book: arXiv
+  type: Conference
+  book: 32nd European Conference on Parallel and Distributed Processing (Euro-Par)
   year: 2026
-  link: https://arxiv.org/abs/2605.27652
+  link: https://doi.org/10.1007/978-3-032-35251-4_19
 
 - title: "Blending Serverful and Serverless Cloud Resources for Cost-Effective Workflow Execution"
   authors: Q. Wu, Q. Zhou, M. Zhou, J. Feng, T. Guo, C. Chen
@@ -248,6 +248,13 @@
   year: 2026
   link: https://arxiv.org/abs/2602.02806
 
+- title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
+  authors: M. Kroczek, J. Zawalska, K. Rycerz
+  type: Journal
+  book: Future Generation Computer Systems
+  year: 2026
+  link: https://doi.org/10.1016/j.future.2026.108686
+
 - title: "DPA-TA2C: Dynamic Priority-Aware Workflow Scheduling Method with Transformer and A2C in Cloud Data Center"
   authors: F. Jian, G. Shen, X. Lv, C. Guo, Y. Cui
   type: Conference
@@ -299,10 +306,10 @@
 
 - title: "Coping with Silent Errors for Workflows of Moldable Tasks"
   authors: Q. Gao, L. Han, S. Hunold, Y. Robert, F. Vivien
-  type: Report
-  book: 
+  type: Journal
+  book: IEEE Transactions on Parallel and Distributed Systems
   year: 2025
-  link: https://inria.hal.science/hal-05116521/file/RR-9589.pdf#page=1.00&gsr=0
+  link: https://doi.org/10.1109/TPDS.2026.3727706
 
 - title: "Energy-aware cooperative multi-fitness evolutionary algorithm for workflow scheduling in cloud computing"
   authors: P. Barredo, J. Puente
@@ -310,13 +317,6 @@
   book: Natural Computing
   year: 2025
   link: https://doi.org/10.1007/s11047-025-10023-y
-
-- title: "Workflow decomposition algorithm for scheduling with quantum annealer-based hybrid solver"
-  authors: M. Kroczek, J. Zawalska, K. Rycerz
-  type: Report
-  book: 
-  year: 2025
-  link: https://arxiv.org/pdf/2506.01567
 
 - title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms"
   authors: J. Coleman, B. Krishnamachari
@@ -537,10 +537,10 @@
 
 - title: "Reusability Challenges of Scientific Workflows: A Case Study for Galaxy"
   authors: K. Alam, B. Roy, A. Serebrenik
-  type: Report
-  book: arXiv preprint
+  type: Conference
+  book: 30th Asia-Pacific Software Engineering Conference (APSEC)
   year: 2023
-  link: https://arxiv.org/abs/2309.07291
+  link: https://doi.org/10.1109/APSEC60848.2023.00039
 
 - title: Robust Makespan Optimization via Genetic Algorithms on the Scientific Workflow Scheduling Problem
   authors: P. Barredo, J. Puente
