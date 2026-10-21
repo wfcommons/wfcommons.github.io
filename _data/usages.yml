@@ -1,3 +1,17 @@
+- title: "Metaheurísticas evolutivas cooperativas para la planificación multi-objetivo de workflows científicos en computación en la nube"
+  author: P. Barredo Gil
+  type: PhD Thesis
+  book: PhD Thesis
+  year: 2026
+  link: https://hdl.handle.net/10651/85873
+
+- title: "Multiobjective cooperative multi-fitness in workflow scheduling problem"
+  author: P. Barredo, J. Puente
+  type: Journal
+  book: "Integrated Computer-Aided Engineering, 32(4)"
+  year: 2025
+  link: https://doi.org/10.1177/10692509251363797
+
 - title: "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study"
   author: Y. Zhang
   type: Preprint
