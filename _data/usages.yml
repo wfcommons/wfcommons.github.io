@@ -1,3 +1,11 @@
+- title: "Throughput-Optimal Control of Distributed Computing Networks for Service DAGs"
+  author: P. Li, J. Zhang, J. Llorca, X. Fu, X. Cheng, C. Chen
+  type: Preprint
+  book: arXiv
+  year: 2026
+  link: https://arxiv.org/html/2611.05007v1
+
+
 - title: "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study"
   author: Y. Zhang
   type: Preprint
