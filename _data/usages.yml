@@ -28,7 +28,7 @@
 
 - title: "Metaheurísticas evolutivas cooperativas para la planificación multi-objetivo de workflows científicos en computación en la nube"
   author: P. Barredo Gil
-  type: PhD Thesis
+  type: Thesis
   book: PhD Thesis
   year: 2026
   link: https://hdl.handle.net/10651/85873
@@ -126,14 +126,14 @@
 
 - title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
   authors: A.T. Ramrakhiani
-  type: PhD Thesis
+  type: Thesis
   book: MS Thesis
   year: 2026
   link: https://ir.library.oregonstate.edu/concern/graduate_thesis_or_dissertations/wm117z48j
 
 - title: "Implementing Kubernetes support for the FaaSr project"
   authors: J. Kammerer
-  type: PhD Thesis
+  type: Thesis
   book: BS Thesis
   year: 2026
   link: https://ir.library.oregonstate.edu/concern/honors_college_theses/g158bs913
@@ -159,7 +159,7 @@
 
 - title: Adaptive Scheduling of Dynamic Workflows
   authors: F. Lehmann
-  type: PhD Thesis
+  type: Thesis
   book: PhD Thesis
   year: 2026
   link: https://edoc.hu-berlin.de/server/api/core/bitstreams/531b60b0-1ed5-4b3b-b012-7a5aced3d625/content
@@ -187,14 +187,14 @@
 
 - title: A Systematic and Automated Methodology for Calibrating Simulators of Parallel and Distributed Computing Systems
   authors: J. McDonald
-  type: PhD Thesis
+  type: Thesis
   book: PhD Thesis
   year: 2026
   link: https://www.proquest.com/dissertations-theses/systematic-automated-methodology-calibrating/docview/3353982448/se-2?accountid=26379
 
 - title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
   authors: A.T. Ramrakhiani
-  type: PhD Thesis
+  type: Thesis
   book: MS Thesis
   year: 2026
   link: https://ir.library.oregonstate.edu/downloads/2b88qn82q
@@ -439,7 +439,7 @@
 
 - title: Reproducible Performance Analysis & Engineering of Large-Scale IT Infrastructures
   authors: L. F. D. Versluis
-  type: PhD Thesis
+  type: Thesis
   Book: PhD Thesis
   year: 2024
   link: https://doi.org/10.5463/thesis.756
@@ -474,7 +474,7 @@
 
 - title: Dispersed Computing in Dynamic Environments
   authors: J. R. Coleman
-  type: PhD Thesis
+  type: Thesis
   book: PhD Thesis
   year: 2024
   link: https://www.proquest.com/docview/3056588562?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses
@@ -558,7 +558,7 @@
 
 - title: Scientific Workflow Generation and Benchmarking
   authors: T. Coleman
-  type: PhD Thesis
+  type: Thesis
   book: PhD Thesis
   year: 2023
   link: https://www.proquest.com/docview/2917122209?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses
@@ -677,8 +677,8 @@
 
 - title: "An Approach for Automating the Calibration of Simulations of Parallel and Distributed Computing Systems"
   authors: W. Koch
-  type: PhD Thesis
-  year: 2021
+  type: Thesis
   book: PhD Thesis
+  year: 2021
   link: https://www.proquest.com/docview/2570179299?pq-origsite=gscholar&fromopenview=true
   
