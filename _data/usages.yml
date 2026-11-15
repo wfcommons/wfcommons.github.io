@@ -1,3 +1,17 @@
+- title: "How far can Network Congestion Awareness Improve Scientific Workflow Scheduling?"
+  author: L. Antonio Momm Duarte and G. Piêgas Koslovski,
+  type: Conference
+  book: 21st Workshop on Workflows in Support of Large-Scale Science (WORKS)
+  year: 2026
+  link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00098
+
+- title: "Automated Task Placement for Hybrid HPC-Serverless Workflows"
+  author: V. Thurimella, A. Andrei da Silva,. G. Rattihalli, T. Coleman, R. Ferreira da Silva, D. Milojicic 
+  type: Conference
+  book: 1st International Workshop on Edge-Cloud-HPC Operational Continuum (ECHO)
+  year: 2026
+  link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00337
+
 - title: "Throughput-Optimal Control of Distributed Computing Networks for Service DAGs"
   author: P. Li, J. Zhang, J. Llorca, X. Fu, X. Cheng, C. Chen
   type: Preprint
