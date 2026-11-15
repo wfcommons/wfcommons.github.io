@@ -7,14 +7,14 @@
 
 - title: "How far can Network Congestion Awareness Improve Scientific Workflow Scheduling?"
   author: L. Antonio Momm Duarte and G. Piêgas Koslovski,
-  type: Conference
+  type: Workshop
   book: 21st Workshop on Workflows in Support of Large-Scale Science (WORKS)
   year: 2026
   link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00098
 
 - title: "Automated Task Placement for Hybrid HPC-Serverless Workflows"
   author: V. Thurimella, A. Andrei da Silva,. G. Rattihalli, T. Coleman, R. Ferreira da Silva, D. Milojicic 
-  type: Conference
+  type: Workshop
   book: 1st International Workshop on Edge-Cloud-HPC Operational Continuum (ECHO)
   year: 2026
   link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00337
@@ -59,7 +59,7 @@
   type: Journal
   book: IEEE Transactions on Services Computing
   year: 2026
-  link: https://ieeexplore.ieee.org/abstract/document/11713350
+  link: https://doi.org/10.1109/TSC.2026.3738104
 
 - title: "Schedule Repair for DAG Workflows under Link Disruptions"
   authors: M. Khodabandehlou, J. Coleman, B. Krishnamachari, K. Chan
@@ -85,16 +85,16 @@
 - title: A Lightweight Green-Power-Aware Online Scheduling Heuristic for Dynamic IoT-Cloud Systems
   authors: X. Liu, Y. Dong, X. Zhang, R. Ma
   type: Conference
-  book: "2026 IEEE International Conference on Smart Internet of Things (SmartIoT)"
+  book: "IEEE International Conference on Smart Internet of Things (SmartIoT)"
   year: 2026
   link: https://doi.org/10.1109/SmartIoT70864.2026.00060
 
 - title: Adaptive Agentic AI Frameworks for Autonomous Task Planning and Parallel Execution
   authors: M. Vani
   type: Conference
-  book: 2026 International Artificial Intelligence Technology Conference (AITC)
+  book: International Artificial Intelligence Technology Conference (AITC)
   year: 2026
-  link: https://ieeexplore.ieee.org/abstract/document/11666578/authors#authors
+  link: https://doi.org/10.1109/AITC70732.2026.11666578
 
 - title: "Static Scheduling of DAG Workflows on Homogeneous Parallel Platforms Using Longest Betweenness Centrality"
   authors: N. Damink, A. Garcia-Robledo, M. Zangiabady
@@ -108,7 +108,7 @@
   type: Journal
   book: "Concurrency and Computation: Practice and Experience"
   year: 2026
-  link: https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.70492
+  link: https://doi.org/10.1002/cpe.70492
 
 - title: "Augur: Pre-Execution Energy Prediction for Workflow Tasks in Heterogeneous Clusters"
   authors: K. West, V. Bountris, P. Thamm, U. Leser, Y. Elkhatib, L. Thamsen
@@ -122,7 +122,7 @@
   type: Conference
   book: 11th International Conference on Computer and Communication Systems (ICCCS)
   year: 2026
-  link: https://ieeexplore.ieee.org/abstract/document/11613426/
+  link: https://doi.org/10.1109/ICCCS69761.2026.11613426
 
 - title: "EphFlow: addressing resource limitations of cross-platform FaaS workflows via serverless ephemeral VM provisioning"
   authors: A.T. Ramrakhiani
@@ -148,7 +148,7 @@
   authors: D. Hari
   type: Journal
   year: 2026
-  link: https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6741041
+  link: https://dx.doi.org/10.2139/ssrn.6741041
 
 - title: An Intelligent Controller of Online SMDP-Based DAG Scheduling in Mobile Edge Computing
   authors: J. Wang, Y. Gao, A. Lakhan 
@@ -174,7 +174,7 @@
 - title: Characterizing Dataflow for I/O-Aware Scheduling in HPC Workflows
   authors: M. Tang, L. Guo, A. Kougkas, X-H. Sun, N.R. Tallent
   type: Conference
-  book: 2026 IEEE International Parallel and Distributed Processing Symposium (IPDPS)
+  book: IEEE International Parallel and Distributed Processing Symposium (IPDPS)
   year: 2026
   link: https://ieeexplore.ieee.org/document/11575333
 
@@ -204,7 +204,7 @@
   type: Conference
   book: "Bioinspired Intelligent Systems: From Robotics and Computer Vision to Trustworthy Applications: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation"
   year: 2026
-  link: https://books.google.com/books?id=DxbfEQAAQBAJ&newbks=0&printsec=frontcover&pg=PA216&dq=Memetic+Algorithm+for+the+Scientific+Workflow+Scheduling+Problem+with+a+Disk-Network-Computation+Model&hl=en&source=newbks_fb#v=onepage&q=Memetic%20Algorithm%20for%20the%20Scientific%20Workflow%20Scheduling%20Problem%20with%20a%20Disk-Network-Computation%20Model&f=false
+  link: https://doi.org/10.1007/978-3-032-27317-8
 
 - title: "Enforcing Attestable Workflows across Untrusted Networks"
   authors: H. Dang1, T. Nguyen
@@ -239,21 +239,21 @@
   type: Journal
   book: "Concurrency and Computation: Practice and Experience"
   year: 2026
-  link: https://onlinelibrary.wiley.com/doi/10.1002/cpe.70492
+  link: https://doi.org/10.1002/cpe.70492
 
 - title: "The Score-P performance tools ecosystem"
   authors: C. Feld, A. Calotoiu, G. Corbin, M. Geimer, M.A Hermanns, M. Knespel, B. Mohr, J.A. Reuter, M. Sander, P. Saviankou, M. Schlütter, R. Schöne, S.S. Shende, A. Visser, B. Wesarg, W.R. Williams, F. Wolf, B.J.N. Wylie, M. Zarubin
   type: Journal
   book: Frontiers in High Performance Computing
   year: 2026
-  link: https://www.frontiersin.org/journals/high-performance-computing/articles/10.3389/fhpcp.2025.1709051/full
+  link: https://doi.org/10.3389/fhpcp.2025.1709051
 
 - title: "Barrier-Aware Task Scheduling for Bulk-Synchronous Parallel Architectures"
   authors: T. Noack, A. Koch
   type: Conference
-  book: "40th ACM International Conference on Supercomputing, ICS ’26"
+  book: "40th ACM International Conference on Supercomputing (ICS)"
   year: 2026
-  link: https://www.esa.informatik.tu-darmstadt.de/assets/publications/materials/2026/2026_ICS_TN_AHK.pdf
+  link: https://doi.org/10.1145/3797905.3807837
 
 - title: "Comprehensive Plugin-Based Monitoring of Nexflow Workflow Executions"
   authors: S. Kharma, T. Wies, F. Schintke
@@ -267,7 +267,7 @@
   type: Journal
   book: SSRN
   year: 2026
-  link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6076629
+  link: https://doi.org/10.1016/j.suscom.2026.101438
 
 - title: "Two-Stage Genetic-Based Optimization for Resource Provisioning and Scheduling of Multiple Workflows on the Cloud Under Resource Constraints"
   authors: F. Li, W.J. Tan, M. Seok, W. Cai
@@ -279,9 +279,9 @@
 - title: "Performance and Energy Consumption Prediction of Scientific Workflows using Machine Learning"
   authors: F. Barbosa, E. Damasceno, F. Queiroz, J.B. Guimaraes, D. Cordeiro, J.S. Araujo, M. Amaris
   type: Conference
-  book: "CARLA 2026, Latin America High Performance Computing Conference"
+  book: "Latin America High Performance Computing Conference (CARLA)"
   year: 2026
-  link: https://carlaconference.org/
+  link: https://doi.org/10.1007/978-3-032-24923-4_14
 
 - title: "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution"
   authors: D. Li, Z. Cheng, G. K. Nicholls, Q. Kong
@@ -300,7 +300,7 @@
 - title: "DPA-TA2C: Dynamic Priority-Aware Workflow Scheduling Method with Transformer and A2C in Cloud Data Center"
   authors: F. Jian, G. Shen, X. Lv, C. Guo, Y. Cui
   type: Conference
-  book: 2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)
+  book: 31th IEEE International Conference on Parallel and Distributed Systems (ICPADS)
   year: 2025
   link: https://doi.org/10.1109/ICPADS67057.2025.11323224
 
@@ -314,21 +314,21 @@
 - title: Adapting Classic Scheduling Heuristics for Online Execution under Uncertainty
   authors: J. Chamorro, G. Twigg-Ho, J. Coleman, T. Coleman, B. Krishnamachari, M. Khodabandehlou
   type: Workshop
-  book: "Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+  book: 20st Workshop on Workflows in Support of Large-Scale Science (WORKS)
   year: 2025
-  link: https://dl.acm.org/doi/full/10.1145/3731599.3767581
+  link: https://doi.org/10.1145/3731599.3767581
 
 - title: "Determining Levels of Detail for Simulators of Parallel and Distributed Computing Systems via Automated Calibration"
   authors: J. McDonald, Y.C. Wong, K. Mehta, F. Suter, R. Ferreira da Silva, L. Pottier, E. Deelman, H. Casanova
   type: Workshop
-  book: "Proceedings of the SC'25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis"
+  book: 16th International Workshop on Performance Modeling, Benchmarking and Simulation of High Performance Computer Systems (PMBS)
   year: 2025
-  link: https://henricasanova.github.io/files/papers/mcdonald_pmbs2025.pdf
+  link: https://doi.org/10.1145/3731599.3767698
 
 - title: "Bundled for Success: A WfBench-Driven Assessment of Texera"
   authors: M. Wang, S. Jahangiri, K. Maheshwari, C. Li
   type: Workshop
-  book: "54th International Conference on Parallel Processing Companion (ICPP Companion '25)"
+  book: 1st Workshop on Workflows, Intelligent Scientific Data, and Optimization for Automated Management (WISDOM)
   year: 2025
   link: https://chenli.ics.uci.edu/files/2025-wisdom.pdf
 
@@ -363,14 +363,14 @@
 - title: "PISA: An Adversarial Approach To Comparing Task Graph Scheduling Algorithms"
   authors: J. Coleman, B. Krishnamachari
   type: Conference
-  book: 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2025)
+  book: 39th IEEE International Parallel & Distributed Processing Symposium (IPDPS)
   year: 2025
   link: https://doi.ieeecomputersociety.org/10.1109/IPDPS64566.2025.00014
 
 - title: "Evaluating the Impact of Algorithmic Components on Task Graph Scheduling"
   authors: J. Coleman, R. V. Agrawal, E. Hirani, B. Krishnamachari
   type: Workshop
-  book: 28th Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP 2025)
+  book: 28th Workshop on Job Scheduling Strategies for Parallel Processing (JSSPP)
   year: 2025
   link: https://doi.org/10.1007/978-3-032-10507-3_13
 
@@ -398,7 +398,7 @@
 - title: "Static task mapping for heterogeneous systems based on series-parallel decompositions"
   authors: M. Wilhelm, T. Pionteck
   type: Workshop
-  book: 34th Heterogeneity in Computing Workshop (HCW 2025)
+  book: 34th Heterogeneity in Computing Workshop (HCW)
   year: 2025
   link: https://arxiv.org/pdf/2502.19745
 
@@ -512,21 +512,21 @@
   type: Journal
   book: Expert Systems with Applications
   year: 2024
-  link: https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S0957417424003592
+  link: https://doi.org/10.1016/j.eswa.2024.123494
 
 - title: Benchmarking DAG Scheduling Algorithms on Scientific Workflow Instances
   authors: O. Sukhoroslov M. Gorokhovskii 
   type: Conference
   book: Russian Supercomputing Days
   year: 2023
-  link: https://link.springer.com/chapter/10.1007/978-3-031-49435-2_1
+  link: https://doi.org/10.1007/978-3-031-49435-2_1
 
 - title: "WfCommons: Data Collection and Runtime Experiments using Multiple Workflow Systems"
   authors: H. Casanova, K. Berney, S. Chastel, R. Ferreira da Silva
-  type: Workshop
-  book: 2023 IEEE 47th Annual Computers, Software, and Applications Conference (COMPSAC)
+  type: Conference
+  book: 47th Annual Computers, Software, and Applications Conference (COMPSAC)
   year: 2023
-  link: https://rafaelsilva.com/files/publications/casanova2023wide.pdf
+  link: https://doi.org/10.1109/COMPSAC57700.2023.00290
 
 - title: Precise makespan optimization via hybrid genetic algorithm for scientific workflow scheduling problem
   authors: P. Barredo, J. Puente 
