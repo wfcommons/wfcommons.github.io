@@ -1,3 +1,10 @@
+- title: "Q-HEPGA: A quantum-inspired amplitude-guided evolutionary framework for workflow scheduling in heterogeneous clouds"
+  author: S. Razzaghzadeh, N. Khaledian, J. A. Oranj, A. Mirzaei 
+  type: Journal
+  book: Journal of Systems Architecture
+  year: 2027
+  link: https://doi.org/10.1016/j.sysarc.2026.104072
+
 - title: "How far can Network Congestion Awareness Improve Scientific Workflow Scheduling?"
   author: L. Antonio Momm Duarte and G. Piêgas Koslovski,
   type: Conference
