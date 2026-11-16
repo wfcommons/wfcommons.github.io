@@ -99,7 +99,7 @@
 - title: "Static Scheduling of DAG Workflows on Homogeneous Parallel Platforms Using Longest Betweenness Centrality"
   authors: N. Damink, A. Garcia-Robledo, M. Zangiabady
   type: Conference
-  book: "Euro-Par 2026: Parallel Processing"
+  book: 32nd European Conference on Parallel and Distributed Processing (Euro-Par)
   year: 2026
   link: https://link.springer.com/chapter/10.1007/978-3-032-35251-4_1
 
@@ -146,7 +146,8 @@
 
 - title: "Multi-Scale Structural Descriptors for Governance-Relevant Patterns in Data Lineage Graphs"
   authors: D. Hari
-  type: Journal
+  type: Preprint
+  book: Social Science Research Network
   year: 2026
   link: https://dx.doi.org/10.2139/ssrn.6741041
 
@@ -202,7 +203,7 @@
 - title: "Memetic Algorithm for the Scientific Workflow Scheduling Problem with a Disk-Network-Computation Model"
   authors: P. González-García, M.R. Sierra, J. Puente, F.J. Gil-Gala
   type: Conference
-  book: "Bioinspired Intelligent Systems: From Robotics and Computer Vision to Trustworthy Applications: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation"
+  book: "11th International Work-Conference on the Interplay Between Natural and Artificial Computation (IWINAC)"
   year: 2026
   link: https://doi.org/10.1007/978-3-032-27317-8
 
@@ -286,7 +287,7 @@
 - title: "De-Linearizing Agent Traces: Bayesian Inference of Latent Partial Orders for Efficient Execution"
   authors: D. Li, Z. Cheng, G. K. Nicholls, Q. Kong
   type: Conference
-  book: Forty-third International Conference on Machine Learning
+  book: 43rd International Conference on Machine Learning
   year: 2026
   link: https://arxiv.org/abs/2602.02806
 
