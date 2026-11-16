@@ -154,7 +154,7 @@
 - title: An Intelligent Controller of Online SMDP-Based DAG Scheduling in Mobile Edge Computing
   authors: J. Wang, Y. Gao, A. Lakhan 
   type: Conference
-  book: Advanced Intelligent Computing Technology and Applications (ICIC 2026)
+  book: Advanced Intelligent Computing Technology and Applications (ICIC)
   year: 2026
   link: https://doi.org/10.1007/978-981-92-3563-6_9
 
@@ -343,7 +343,7 @@
 - title: "Carbon-Aware Workflow Scheduling with Fixed Mapping and Deadline Constraint"
   authors: D. Schweisgut, A. Benoit, Y. Robert, H. Meyerhenke
   type: Conference
-  book: "ICPP '25: Proceedings of the 54th International Conference on Parallel Processing"
+  book: "54th International Conference on Parallel Processing (ICPP)"
   year: 2025
   link: https://arxiv.org/pdf/2507.08725
 
@@ -427,21 +427,21 @@
 - title: "Scientific workflow scheduling algorithms in cloud environments: a comprehensive taxonomy, survey, and future directions"
   authors: E. Saeedizade, M. Ashtiani
   type: Journal
-  Book: Journal of Scheduling
+  book: Journal of Scheduling
   year: 2024
   link: https://doi.org/10.1007/s10951-024-00820-1
 
 - title: Enabling HPC Scientific Workflows for Serverless
   authors: A. A. Da Silva, R. P. Hong Enriquez, G. Rattihalli, V. Thurimella, R. Ferreira da Silva, D. Milojicic
   type: Workshop
-  Book: 6th International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)
+  book: 6th International Workshop on Containers and New Orchestration Paradigms for Isolated Environments in HPC (CANOPIE-HPC)
   year: 2024
   link: https://doi.org/10.1109/SCW63240.2024.00022
 
 - title: Reproducible Performance Analysis & Engineering of Large-Scale IT Infrastructures
   authors: L. F. D. Versluis
   type: Thesis
-  Book: PhD Thesis
+  book: PhD Thesis
   year: 2024
   link: https://doi.org/10.5463/thesis.756
 
@@ -483,7 +483,7 @@
 - title: Mapping Large Memory-constrained Workflows onto Heterogeneous Platforms
   authors: S Kulagina, H Meyerhenke, A Benoit
   type: Conference
-  book: "53rd International Conference on Parallel Processing (ICPP '24)"
+  book: "53rd International Conference on Parallel Processing (ICPP)"
   year: 2024
   link: https://arxiv.org/abs/2407.09077
 
@@ -539,7 +539,7 @@
 - title: Scheduling of Workflows with Task Resource Requirements in Cluster Environments
   authors: O. Sukhoroslov
   type: Conference
-  book: International Conference on Parallel Computing Technologies
+  book: International Conference on Parallel Computing Technologies (PaCT)
   year: 2023
   link: https://link.springer.com/chapter/10.1007/978-3-031-41673-6_14
 
