@@ -1,47 +1,47 @@
 - title: "Q-HEPGA: A quantum-inspired amplitude-guided evolutionary framework for workflow scheduling in heterogeneous clouds"
-  author: S. Razzaghzadeh, N. Khaledian, J. A. Oranj, A. Mirzaei 
+  authors: S. Razzaghzadeh, N. Khaledian, J. A. Oranj, A. Mirzaei 
   type: Journal
   book: Journal of Systems Architecture
   year: 2027
   link: https://doi.org/10.1016/j.sysarc.2026.104072
 
 - title: "How far can Network Congestion Awareness Improve Scientific Workflow Scheduling?"
-  author: L. Antonio Momm Duarte and G. Piêgas Koslovski,
+  authors: L. Antonio Momm Duarte and G. Piêgas Koslovski,
   type: Workshop
   book: 21st Workshop on Workflows in Support of Large-Scale Science (WORKS)
   year: 2026
   link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00098
 
 - title: "Automated Task Placement for Hybrid HPC-Serverless Workflows"
-  author: V. Thurimella, A. Andrei da Silva,. G. Rattihalli, T. Coleman, R. Ferreira da Silva, D. Milojicic 
+  authors: V. Thurimella, A. Andrei da Silva, G. Rattihalli, T. Coleman, R. Ferreira da Silva, D. Milojicic 
   type: Workshop
   book: 1st International Workshop on Edge-Cloud-HPC Operational Continuum (ECHO)
   year: 2026
   link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00337
 
 - title: "Throughput-Optimal Control of Distributed Computing Networks for Service DAGs"
-  author: P. Li, J. Zhang, J. Llorca, X. Fu, X. Cheng, C. Chen
+  authors: P. Li, J. Zhang, J. Llorca, X. Fu, X. Cheng, C. Chen
   type: Preprint
   book: arXiv
   year: 2026
   link: https://arxiv.org/html/2611.05007v1
 
 - title: "Metaheurísticas evolutivas cooperativas para la planificación multi-objetivo de workflows científicos en computación en la nube"
-  author: P. Barredo Gil
+  authors: P. Barredo Gil
   type: Thesis
   book: PhD Thesis
   year: 2026
   link: https://hdl.handle.net/10651/85873
 
 - title: "Multiobjective cooperative multi-fitness in workflow scheduling problem"
-  author: P. Barredo, J. Puente
+  authors: P. Barredo, J. Puente
   type: Journal
   book: "Integrated Computer-Aided Engineering, 32(4)"
   year: 2025
   link: https://doi.org/10.1177/10692509251363797
 
 - title: "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study"
-  author: Y. Zhang
+  authors: Y. Zhang
   type: Preprint
   book: arXiv
   year: 2026
