@@ -5,6 +5,20 @@
   year: 2027
   link: https://doi.org/10.1016/j.sysarc.2026.104072
 
+- title: "nFlows: Enabling Efficient Data Movement in Data-Intensive Scientific Workflows on Non-Uniform Memory Access Architectures"
+  authors: A. Vivas, T. Applencourt, H. Castro
+  type: Workshop
+  book: 21st Workshop on Workflows in Support of Large-Scale Science (WORKS26)
+  year: 2026
+  link: https://doi.ieeecomputersociety.org/10.1109/SCW72768.2026.00091
+
+- title: "When Cloud Workflow Schedulers Fail at the Edge: A Reproducible Transferability-Boundary Analysis for Edge Execution of Scientific Workflows"
+  authors: D. Liu
+  type: Conference
+  book: 2026 4th International Conference on Internet of Things and Cloud Computing Technology (IoTCCT)
+  year: 2026
+  link: https://doi.org/10.1109/IoTCCT71357.2026.11781077
+
 - title: "How far can Network Congestion Awareness Improve Scientific Workflow Scheduling?"
   authors: L. Antonio Momm Duarte and G. Piêgas Koslovski,
   type: Workshop
