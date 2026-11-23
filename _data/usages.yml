@@ -5,6 +5,13 @@
   year: 2027
   link: https://doi.org/10.1016/j.sysarc.2026.104072
 
+- title: "ADARE: Pareto-Contextual adaptive control for many-objective workflow scheduling in heterogeneous Edge/Fog/Cloud systems"
+  authors: R.C. Tayo, S. Yassa
+  type: Journal
+  book: Swarm and Evolutionary Computation
+  year: 2026
+  link: http://dx.doi.org/10.1016/j.swevo.2026.102575
+
 - title: "nFlows: Enabling Efficient Data Movement in Data-Intensive Scientific Workflows on Non-Uniform Memory Access Architectures"
   authors: A. Vivas, T. Applencourt, H. Castro
   type: Workshop
